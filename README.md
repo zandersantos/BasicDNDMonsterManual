@@ -14,7 +14,7 @@ APIS USED:
 Monster
   - id:integer (auto incrementing PK)
   - name:string
-  - armor_class:int
+  - armour_class:int
   - hitpoints:string
   - speed:int
   - hit_dice:string
@@ -26,26 +26,30 @@ Monster_Senses
   - sense_range:string
   - monster_id:integer (FK)
 
-Abilities
+Ability
   - id:integer (auto incrementing PK)
   - name:string
   - description:string
 
-Monster_Abilities
+Monster_Ability
 (Joiner Table to let Abilities have multiple Monsters)
   - id:integer (auto incrementing PK)
   - monster_id:integer (FK)
   - abilities_id:integer (FK)
 
-Actions
+Action
   - id:integer (auto incrementing PK)
   - name:string
   - description:string
   - damage_type:string
   - damage_dice:string
 
-Monster_Actions
+Monster_Action
 (Joiner Table to let Actions have multiple Monsters)
   - id:integer (auto incrementing PK)
   - monster_id:integer (FK)
   - actions_id:integer (FK)
+
+Monster_Image
+  - url:string
+  - monster_id:integer (FK)
