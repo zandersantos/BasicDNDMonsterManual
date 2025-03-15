@@ -10,7 +10,59 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_03_15_180222) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_15_181642) do
+  create_table "abilities", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "string"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "actions", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.string "damage_type"
+    t.string "damage_dice"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "monster_abilities", force: :cascade do |t|
+    t.integer "monster_id", null: false
+    t.integer "ability_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["ability_id"], name: "index_monster_abilities_on_ability_id"
+    t.index ["monster_id"], name: "index_monster_abilities_on_monster_id"
+  end
+
+  create_table "monster_actions", force: :cascade do |t|
+    t.integer "monster_id", null: false
+    t.integer "action_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["action_id"], name: "index_monster_actions_on_action_id"
+    t.index ["monster_id"], name: "index_monster_actions_on_monster_id"
+  end
+
+  create_table "monster_images", force: :cascade do |t|
+    t.string "url"
+    t.integer "monster_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["monster_id"], name: "index_monster_images_on_monster_id"
+  end
+
+  create_table "monster_senses", force: :cascade do |t|
+    t.string "sense_type"
+    t.string "sense_range"
+    t.integer "monster_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["monster_id"], name: "index_monster_senses_on_monster_id"
+  end
+
   create_table "monsters", force: :cascade do |t|
     t.string "name"
     t.integer "armour_class"
@@ -21,4 +73,11 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_15_180222) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  add_foreign_key "monster_abilities", "abilities"
+  add_foreign_key "monster_abilities", "monsters"
+  add_foreign_key "monster_actions", "actions"
+  add_foreign_key "monster_actions", "monsters"
+  add_foreign_key "monster_images", "monsters"
+  add_foreign_key "monster_senses", "monsters"
 end
