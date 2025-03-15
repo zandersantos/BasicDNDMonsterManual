@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  armour_class: 1
+  hitpoints: MyString
+  speed: 1
+  hit_dice: MyString
+  img_url: MyString
+
+two:
+  name: MyString
+  armour_class: 1
+  hitpoints: MyString
+  speed: 1
+  hit_dice: MyString
+  img_url: MyString
