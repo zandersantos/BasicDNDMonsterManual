@@ -5,7 +5,6 @@ class Monster < ApplicationRecord
   has_many :monster_sense
 
   validates :name, presence: true, uniqueness: true
-  validates :armour_class, presence: true, numericallity: { only_integer: true }
-  validates :hitpoints, presence: true, uniqueness: true
-  validates :speed, presence: true, numericallity: { only_integer: true }
+  validates :armour_class, presence: true, numericality: { only_integer: true }
+  validates :hitpoints, presence: true
 end
