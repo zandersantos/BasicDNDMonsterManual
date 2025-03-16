@@ -6,6 +6,6 @@ class Monster < ApplicationRecord
 
   validates :name, presence: true, uniqueness: true
   validates :armour_class, presence: true, numericallity: { only_integer: true }
-  validates :hitpoints, presence: true, numericallity: { only_integer: true }
+  validates :hitpoints, presence: true, uniqueness: true
   validates :speed, presence: true, numericallity: { only_integer: true }
 end
