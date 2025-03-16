@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_03_16_191441) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_16_192604) do
   create_table "abilities", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -54,6 +54,16 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_16_191441) do
     t.index ["monster_id"], name: "index_monster_images_on_monster_id"
   end
 
+  create_table "monster_senses", force: :cascade do |t|
+    t.string "sense_range"
+    t.integer "monster_id", null: false
+    t.integer "sense_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["monster_id"], name: "index_monster_senses_on_monster_id"
+    t.index ["sense_id"], name: "index_monster_senses_on_sense_id"
+  end
+
   create_table "monsters", force: :cascade do |t|
     t.string "name"
     t.integer "armour_class"
@@ -64,9 +74,17 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_16_191441) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "senses", force: :cascade do |t|
+    t.string "sense_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   add_foreign_key "monster_abilities", "abilities"
   add_foreign_key "monster_abilities", "monsters"
   add_foreign_key "monster_actions", "actions"
   add_foreign_key "monster_actions", "monsters"
   add_foreign_key "monster_images", "monsters"
+  add_foreign_key "monster_senses", "monsters"
+  add_foreign_key "monster_senses", "senses"
 end
