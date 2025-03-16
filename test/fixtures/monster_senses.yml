@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  sense_type: MyString
   sense_range: MyString
   monster: one
+  sense: one
 
 two:
-  sense_type: MyString
   sense_range: MyString
   monster: two
+  sense: two
