@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_03_16_174013) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_16_191441) do
   create_table "abilities", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -54,15 +54,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_16_174013) do
     t.index ["monster_id"], name: "index_monster_images_on_monster_id"
   end
 
-  create_table "monster_senses", force: :cascade do |t|
-    t.string "sense_type"
-    t.string "sense_range"
-    t.integer "monster_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["monster_id"], name: "index_monster_senses_on_monster_id"
-  end
-
   create_table "monsters", force: :cascade do |t|
     t.string "name"
     t.integer "armour_class"
@@ -78,5 +69,4 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_16_174013) do
   add_foreign_key "monster_actions", "actions"
   add_foreign_key "monster_actions", "monsters"
   add_foreign_key "monster_images", "monsters"
-  add_foreign_key "monster_senses", "monsters"
 end
