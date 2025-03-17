@@ -1,2 +1,8 @@
-<h1>Monsters#index</h1>
-<p>Find me in app/views/monsters/index.html.erb</p>
+<h1>All Dungeons and Dragons Monsters</h1>
+
+
+<ol>
+  <% @monsters.each do |monster| %>
+    <li><%= link_to monster.name, monster%></li>
+  <% end %>
+</ol>
