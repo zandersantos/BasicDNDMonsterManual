@@ -74,29 +74,48 @@ require "csv"
 # puts "Created #{MonsterSense.count} MonsterSenses"
 
 
-#ACTION CREATION
-filenameaction= Rails.root.join "db/actiondata.csv"
-puts "Reading in the file from here #{filenameaction}"
+# #ACTION CREATION
+# filenameaction= Rails.root.join "db/actiondata.csv"
+# puts "Reading in the file from here #{filenameaction}"
 
-csv_data = File.read(filenameaction)
-actions = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
-puts "Headers: #{actions.headers.inspect}" # Check the headers
-actions.each_with_index do |action, index|
-  puts "Row #{index + 1}: #{action.to_h.inspect}" # Check each row
-end
+# csv_data = File.read(filenameaction)
+# actions = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+# puts "Headers: #{actions.headers.inspect}" # Check the headers
 
+# actions.each do |action|
 
-actions.each do |action|
+#   # Create monster record with armor_class value
+#   action_record = Action.create(name: action["name"])
+
+#   if action_record.valid?
+#     puts "#{action["name"]} Created"
+#   else
+#     puts "Unable to create the action #{action["name"]}"
+#     puts "Errors: #{action_record.errors.full_messages.join(", ")}"
+#   end
+# end
+
+# puts "Created #{Action.count} actions"
+
+#MonsterACTION CREATION
+filenamemonsteraction= Rails.root.join "db/monsteractiondatafile.csv"
+puts "Reading in the file from here #{filenamemonsteraction}"
+
+csv_data = File.read(filenamemonsteraction)
+monsteractions = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+puts "Headers: #{monsteractions.headers.inspect}" # Check the headers
+
+monsteractions.each do |monsteraction|
 
   # Create monster record with armor_class value
-  action_record = Action.create(name: action["name"])
+  monsteraction_record = MonsterAction.create(monster_id: monsteraction["monster_id"], action_id: monsteraction["nameid"], description: monsteraction["description"], damage_dice: monsteraction["hitdice"], damage_type: monsteraction["damage_type"])
 
-  if action_record.valid?
-    puts "#{action["name"]} Created"
+  if monsteraction_record.valid?
+    puts "#{monsteraction["name"]} Created"
   else
-    puts "Unable to create the action #{action["name"]}"
-    puts "Errors: #{action_record.errors.full_messages.join(", ")}"
+    puts "Unable to create the action #{monsteraction["name"]}"
+    puts "Errors: #{monsteraction_record.errors.full_messages.join(", ")}"
   end
 end
 
-puts "Created #{Action.count} actions"
+puts "Created #{MonsterAction.count} monster actions"
