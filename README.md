@@ -53,3 +53,15 @@ Monster_Action
 Monster_Image
   - url:string
   - monster_id:integer (FK)
+
+## Routes
+GET /             => Homepage
+GET /monsters     => Display a list of monsters
+GET /monsters/:id => Display a single monster
+GET /senses       => Display a list of monster senses
+GET /senses/:id   => Display a single monster sense
+
+## Controllers
+HomeController => index
+MonstersController => index, show
+SensesController => index, show
