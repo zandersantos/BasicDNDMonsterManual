@@ -75,23 +75,28 @@ require "csv"
 
 
 #ACTION CREATION
-filenamemonstersense= Rails.root.join "db/monstersensedatafile.csv"
-puts "Reading in the file from here #{filenamemonstersense}"
+filenameaction= Rails.root.join "db/actiondata.csv"
+puts "Reading in the file from here #{filenameaction}"
 
-csv_data = File.read(filenamemonstersense)
-monstersenses = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+csv_data = File.read(filenameaction)
+actions = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+puts "Headers: #{actions.headers.inspect}" # Check the headers
+actions.each_with_index do |action, index|
+  puts "Row #{index + 1}: #{action.to_h.inspect}" # Check each row
+end
 
-monstersenses.each do |monstersense|
+
+actions.each do |action|
 
   # Create monster record with armor_class value
-  monstersense_record = MonsterSense.create(monster_id: monstersense["monster_id"], sense_id: monstersense["sense_type"], sense_range: monstersense["sense_range"])
+  action_record = Action.create(name: action["name"])
 
-  if monstersense_record.valid?
-    puts "#{monstersense["sense_range"]} Created"
+  if action_record.valid?
+    puts "#{action["name"]} Created"
   else
-    puts "Unable to create the sense type #{monstersense["sense_range"]}"
-    puts "Errors: #{monstersense_record.errors.full_messages.join(", ")}"
+    puts "Unable to create the action #{action["name"]}"
+    puts "Errors: #{action_record.errors.full_messages.join(", ")}"
   end
 end
 
-puts "Created #{MonsterSense.count} MonsterSenses"
+puts "Created #{Action.count} actions"
