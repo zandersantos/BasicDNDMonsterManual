@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "actions/index"
+  get "actions/show"
   resources :monsters, only: [ :index, :show]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
