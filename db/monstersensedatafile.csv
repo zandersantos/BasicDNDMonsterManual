@@ -1,0 +1,618 @@
+monster_id,sense_type,sense_range
+1,darkvision, 120 ft.
+1,passive_perception,20
+2,passive_perception, 12
+3,blindsight, 60 ft.
+3,darkvision,120ft.
+3,passive_perception,21
+4,blindsight, 60 ft.
+4,darkvision,120ft.
+4,passive_perception,22
+5,blindsight, 60 ft.
+5,darkvision,120ft.
+5,passive_perception,21
+6,blindsight, 60 ft.
+6,darkvision,120ft.
+6,passive_perception,22
+7,blindsight, 60 ft.
+7,darkvision,120ft.
+7,passive_perception,22
+8,blindsight, 60 ft.
+8,darkvision,120ft.
+8,passive_perception,24
+9,blindsight, 60 ft.
+9,darkvision,120ft.
+9,passive_perception,22
+10,blindsight, 60 ft.
+10,darkvision,120ft.
+10,passive_perception,23
+11,blindsight, 60 ft.
+11,darkvision,120ft.
+11,passive_perception,21
+12,blindsight, 60 ft.
+12,darkvision,120ft.
+12,passive_perception,21
+13,darkvision, 60 ft.
+13,passive_perception,10
+14,blindsight, 60 ft.
+14,darkvision,120ft.
+14,passive_perception,26
+15,blindsight, 60 ft.
+15,darkvision,120ft.
+15,passive_perception,27
+16,blindsight, 60 ft.
+16,darkvision,120ft.
+16,passive_perception,24
+17,blindsight, 60 ft.
+17,darkvision,120ft.
+17,passive_perception,27
+18,blindsight, 60 ft.
+18,darkvision,120ft.
+18,passive_perception,27
+19,blindsight, 60 ft.
+19,darkvision,120ft.
+19,passive_perception,27
+20,blindsight, 60 ft.
+20,darkvision,120ft.
+20,passive_perception,27
+21,blindsight, 60 ft.
+21,darkvision,120ft.
+21,passive_perception,26
+22,blindsight, 60 ft.
+22,darkvision,120ft.
+22,passive_perception,26
+23,blindsight, 60 ft.
+23,darkvision,120ft.
+23,passive_perception,23
+24,truesight, 120 ft.
+24,passive_perception,20
+25,blindsight, 60 ft. (blind beyond this radius)
+25,passive_perception,6
+26,darkvision, 60 ft.
+26,tremorsense,60ft.
+26,passive_perception,11
+27,passive_perception, 13
+28,passive_perception, 12
+29,passive_perception, 13
+30,passive_perception, 10
+31,passive_perception, 10
+32,passive_perception, 10
+33,passive_perception, 11
+34,passive_perception, 11
+35,darkvision, 30 ft.
+35,passive_perception,11
+36,truesight, 120 ft.
+36,passive_perception,13
+37,passive_perception, 10
+38,passive_perception, 10
+39,darkvision, 120 ft.
+39,passive_perception,18
+40,darkvision, 60 ft.
+40,passive_perception,9
+41,blindsight, 60 ft.
+41,passive_perception,11
+42,darkvision, 120 ft.
+42,passive_perception,10
+43,darkvision, 90 ft.
+43,passive_perception,16
+44,passive_perception, 10
+45,passive_perception, 13
+46,blindsight, 10 ft.
+46,darkvision,60ft.
+46,passive_perception,14
+47,blindsight, 60 ft. (blind beyond this radius)
+47,passive_perception,8
+48,passive_perception, 10
+49,passive_perception, 14
+50,blindsight, 10 ft.
+50,darkvision,60ft.
+50,passive_perception,14
+51,passive_perception, 9
+52,darkvision, 120 ft.
+52,passive_perception,12
+53,blindsight, 10 ft.
+53,darkvision,60ft.
+53,passive_perception,14
+54,blindsight, 10 ft.
+54,darkvision,60ft.
+54,passive_perception,14
+55,passive_perception, 13
+56,darkvision, 60 ft.
+56,passive_perception,10
+57,darkvision, 60 ft.
+57,tremorsense,60ft.
+57,passive_perception,16
+58,passive_perception, 9
+59,passive_perception, 13
+60,passive_perception, 13
+61,darkvision, 120 ft.
+61,passive_perception,11
+62,darkvision, 60 ft.
+62,passive_perception,18
+63,darkvision, 60 ft.
+63,passive_perception,14
+64,darkvision, 60 ft.
+64,passive_perception,9
+65,darkvision, 60 ft.
+65,passive_perception,11
+66,passive_perception, 17
+67,darkvision, 60 ft.
+67,passive_perception,11
+68,passive_perception, 10
+69,blindsight, 10 ft.
+69,passive_perception,10
+70,blindsight, 10 ft.
+70,darkvision,60ft.
+70,passive_perception,14
+71,truesight, 120 ft.
+71,passive_perception,15
+72,blindsight, 30 ft.
+72,passive_perception,9
+73,passive_perception, 10
+74,passive_perception, 11
+75,passive_perception, 10
+76,blindsight, 60 ft.
+76,passive_perception,10
+77,darkvision, 120 ft.
+77,passive_perception,15
+78,darkvision, 120 ft.
+78,passive_perception,12
+79,passive_perception, 12
+80,darkvision, 120 ft.
+80,passive_perception,19
+81,passive_perception, 13
+82,darkvision, 120 ft.
+82,passive_perception,13
+83,darkvision, 60 ft.
+83,passive_perception,11
+84,passive_perception, 10
+85,darkvision, 120 ft.
+85,passive_perception,11
+86,darkvision, 60 ft.
+86,passive_perception,9
+87,darkvision, 120 ft.
+87,passive_perception,15
+88,darkvision, 120 ft.
+88,passive_perception,12
+89,passive_perception, 14
+90,darkvision, 60 ft.
+90,passive_perception,14
+91,darkvision, 120 ft.
+91,passive_perception,10
+92,darkvision, 60 ft.
+92,passive_perception,12
+93,passive_perception, 14
+94,darkvision, 60 ft.
+94,tremorsense,60ft.
+94,passive_perception,10
+95,darkvision, 120 ft.
+95,passive_perception,12
+96,passive_perception, 10
+97,passive_perception, 10
+98,truesight, 120 ft.
+98,passive_perception,12
+99,darkvision, 60 ft.
+99,passive_perception,13
+100,darkvision, 60 ft.
+100,passive_perception,14
+101,darkvision, 60 ft.
+101,passive_perception,10
+102,passive_perception, 16
+103,darkvision, 60 ft.
+103,passive_perception,10
+104,blindsight, 10 ft.
+104,passive_perception,11
+105,blindsight, 60 ft. (blind beyond this radius)
+105,passive_perception,7
+106,darkvision, 30 ft.
+106,passive_perception,11
+107,passive_perception, 13
+108,darkvision, 60 ft.
+108,passive_perception,10
+109,blindsight, 60 ft. (blind beyond this radius)
+109,passive_perception,8
+110,darkvision, 60 ft.
+110,passive_perception,10
+111,darkvision, 60 ft.
+111,passive_perception,11
+112,darkvision, 60 ft.
+112,passive_perception,10
+113,passive_perception, 14
+114,darkvision, 30 ft.
+114,passive_perception,11
+115,blindsight, 60 ft.
+115,passive_perception,11
+116,passive_perception, 8
+117,blindsight, 30 ft.
+117,passive_perception,8
+118,blindsight, 10 ft.
+118,passive_perception,12
+119,blindsight, 30 ft.
+119,passive_perception,9
+120,passive_perception, 10
+121,passive_perception, 14
+122,passive_perception, 14
+123,blindsight, 30 ft.
+123,passive_perception,8
+124,darkvision, 30 ft.
+124,passive_perception,12
+125,passive_perception, 11
+126,passive_perception, 13
+127,darkvision, 30 ft.
+127,passive_perception,10
+128,darkvision, 60 ft.
+128,passive_perception,14
+129,darkvision, 120 ft.
+129,passive_perception,15
+130,blindsight, 10 ft.
+130,passive_perception,12
+131,darkvision, 60 ft.
+131,passive_perception,10
+132,darkvision, 60 ft.
+132,passive_perception,10
+133,blindsight, 60 ft.
+133,passive_perception,9
+134,passive_perception, 11
+135,blindsight, 60 ft.
+135,passive_perception,13
+136,blindsight, 10 ft.
+136,darkvision,60ft.
+136,passive_perception,10
+137,darkvision, 30 ft.
+137,passive_perception,10
+138,passive_perception, 13
+139,passive_perception, 10
+140,darkvision, 60 ft.
+140,passive_perception,13
+141,blindsight, 10 ft.
+141,darkvision,60ft.
+141,passive_perception,13
+142,darkvision, 60 ft.
+142,passive_perception,10
+143,truesight, 120 ft.
+143,passive_perception,13
+144,passive_perception, 11
+145,darkvision, 60 ft.
+145,passive_perception,10
+146,passive_perception, 10
+147,darkvision, 60 ft.
+147,passive_perception,9
+148,blindsight, 10 ft.
+148,darkvision,60ft.
+148,passive_perception,14
+149,darkvision, 60 ft.
+149,passive_perception,14
+150,blindsight, 60 ft. (blind beyond this radius)
+150,passive_perception,8
+151,blindsight, 10 ft.
+151,darkvision,60ft.
+151,passive_perception,14
+152,darkvision, 60 ft.
+152,passive_perception,14
+153,darkvision, 60 ft.
+153,passive_perception,12
+154,darkvision, 60 ft.
+154,passive_perception,15
+155,blindsight, 30 ft. or 10 ft. while deafened (blind beyond this radius)
+155,passive_perception,13
+156,passive_perception, 12
+157,darkvision, 60 ft.
+157,passive_perception,14
+158,truesight, 120 ft.
+158,passive_perception,18
+159,blindsight, 10 ft.
+159,darkvision,60ft.
+159,passive_perception,12
+160,passive_perception, 10
+161,passive_perception, 14
+162,darkvision, 60 ft.
+162,passive_perception,15
+163,darkvision, 120 ft.
+163,passive_perception,11
+164,passive_perception, 12
+165,passive_perception, 15
+166,darkvision, 60 ft.
+166,passive_perception,10
+167,darkvision, 60 ft.
+167,passive_perception,10
+168,darkvision, 120 ft.
+168,passive_perception,13
+169,darkvision, 30 ft.
+169,passive_perception,12
+170,darkvision, 60 ft.
+170,passive_perception,16
+171,passive_perception, 13
+172,blindsight, 60 ft.
+172,darkvision,120ft.
+172,passive_perception,12
+173,darkvision, 60 ft.
+173,passive_perception,12
+174,darkvision, 120 ft.
+174,passive_perception,11
+175,darkvision, 60 ft.
+175,passive_perception,18
+176,darkvision, 120 ft.
+176,passive_perception,10
+177,passive_perception, 13
+178,blindsight, 120 ft.
+178,passive_perception,13
+179,passive_perception, 10
+180,darkvision, 60 ft.
+180,passive_perception,8
+181,truesight, 120 ft.
+181,passive_perception,14
+182,darkvision, 60 ft.
+182,passive_perception,12
+183,darkvision, 120 ft.
+183,passive_perception,10
+184,truesight, 120 ft.
+184,passive_perception,19
+185,passive_perception, 13
+186,darkvision, 30 ft.
+186,passive_perception,9
+187,passive_perception, 13
+188,passive_perception, 11
+189,darkvision, 60 ft.
+189,passive_perception,10
+190,darkvision, 60 ft.
+190,passive_perception,10
+191,passive_perception, 10
+192,darkvision, 60 ft.
+192,passive_perception,11
+193,truesight, 120 ft.
+193,passive_perception,13
+194,passive_perception, 13
+195,darkvision, 60 ft.
+195,passive_perception,14
+196,passive_perception, 12
+197,darkvision, 60 ft.
+197,passive_perception,10
+198,darkvision, 60 ft.
+198,passive_perception,11
+199,darkvision, 60 ft.
+199,passive_perception,17
+200,darkvision, 60 ft.
+200,passive_perception,9
+201,passive_perception, 10
+202,darkvision, 60 ft.
+202,passive_perception,10
+203,darkvision, 60 ft.
+203,passive_perception,14
+204,truesight, 120 ft.
+204,passive_perception,11
+205,darkvision, 120 ft.
+205,passive_perception,16
+206,passive_perception, 11
+207,passive_perception, 12
+208,blindsight, 60 ft. (blind beyond this radius)
+208,passive_perception,8
+209,darkvision, 30 ft.
+209,passive_perception,12
+210,darkvision, 60 ft.
+210,passive_perception,8
+211,darkvision, 60 ft.
+211,passive_perception,8
+212,darkvision, 60 ft.
+212,passive_perception,14
+213,darkvision, 60 ft.
+213,passive_perception,10
+214,darkvision, 120 ft.
+214,passive_perception,11
+215,darkvision, 120 ft.
+215,passive_perception,13
+216,darkvision, 60 ft.
+216,passive_perception,13
+217,passive_perception, 14
+218,passive_perception, 16
+219,darkvision, 60 ft.
+219,passive_perception,10
+220,truesight, 120 ft.
+220,passive_perception,14
+221,truesight, 120 ft.
+221,passive_perception,21
+222,passive_perception, 13
+223,blindsight, 10 ft.
+223,passive_perception,10
+224,passive_perception, 13
+225,passive_perception, 10
+226,passive_perception, 13
+227,blindsight, 10 ft.
+227,darkvision,60ft.
+227,passive_perception,13
+228,blindsight, 30 ft.
+228,tremorsense,60ft.
+228,passive_perception,9
+229,darkvision, 120 ft.
+229,passive_perception,10
+230,darkvision, 60 ft.
+230,passive_perception,8
+231,darkvision, 60 ft.
+231,passive_perception,13
+232,darkvision, 30 ft.
+232,passive_perception,10
+233,passive_perception, 13
+234,blindsight, 10 ft.
+234,darkvision,60ft.
+234,passive_perception,14
+235,blindsight, 30 ft.
+235,passive_perception,12
+236,darkvision, 60 ft.
+236,tremorsense,60ft.
+236,passive_perception,10
+237,passive_perception, 11
+238,passive_perception, 10
+239,passive_perception, 14
+240,darkvision, 60 ft.
+240,passive_perception,16
+241,blindsight, 60 ft. (blind beyond this radius)
+241,passive_perception,6
+242,darkvision, 60 ft.
+242,passive_perception,11
+243,passive_perception, 13
+244,darkvision, 120 ft.
+244,passive_perception,15
+245,darkvision, 60 ft.
+245,passive_perception,10
+246,passive_perception, 12
+247,blindsight, 10 ft.
+247,passive_perception,9
+248,passive_perception, 15
+249,darkvision, 60 ft.
+249,passive_perception,11
+250,passive_perception, 10
+251,darkvision, 60 ft.
+251,passive_perception,10
+252,blindsight, 60 ft. (blind beyond this radius)
+252,passive_perception,10
+253,blindsight, 10 ft.
+253,darkvision,60ft.
+253,passive_perception,10
+254,blindsight, 30 ft. (blind beyond this radius)
+254,passive_perception,6
+255,blindsight, 10 ft.
+255,darkvision,60ft.
+255,passive_perception,14
+256,darkvision, 60 ft.
+256,passive_perception,9
+257,truesight, 120 ft.
+257,passive_perception,24
+258,darkvision, 60 ft.
+258,passive_perception,10
+259,darkvision, 30 ft.
+259,passive_perception,12
+260,darkvision, 60 ft.
+260,passive_perception,12
+261,passive_perception, 13
+262,passive_perception, 16
+263,darkvision, 60 ft.
+263,passive_perception,10
+264,darkvision, 60 ft.
+264,passive_perception,9
+265,darkvision, 60 ft.
+265,passive_perception,14
+266,darkvision, 120 ft.
+266,passive_perception,10
+267,passive_perception, 19
+268,darkvision, 60 ft.
+268,passive_perception,15
+269,blindsight, 60 ft.
+269,passive_perception,11
+270,blindsight, 10 ft.
+270,passive_perception,8
+271,blindsight, 10 ft.
+271,passive_perception,8
+272,blindsight, 10 ft.
+272,passive_perception,8
+273,blindsight, 10 ft.
+273,passive_perception,10
+274,darkvision, 60 ft.
+274,passive_perception,8
+275,darkvision, 30 ft.
+275,passive_perception,10
+276,passive_perception, 15
+277,blindsight, 10 ft.
+277,passive_perception,8
+278,blindsight, 10 ft.
+278,passive_perception,8
+279,blindsight, 120 ft.
+279,passive_perception,10
+280,passive_perception, 10
+281,darkvision, 60 ft.
+281,passive_perception,13
+282,passive_perception, 13
+283,passive_perception, 10
+284,passive_perception, 10
+285,darkvision, 60 ft.
+285,passive_perception,12
+286,passive_perception, 14
+287,darkvision, 60 ft.
+287,passive_perception,13
+288,darkvision, 120 ft.
+288,passive_perception,17
+289,darkvision, 120 ft.
+289,passive_perception,17
+290,darkvision, 120 ft.
+290,passive_perception,17
+291,darkvision, 60 ft.
+291,passive_perception,13
+292,passive_perception, 12
+293,blindsight, 30 ft. (blind beyond this radius)
+293,passive_perception,6
+294,darkvision, 120 ft.
+294,passive_perception,11
+295,passive_perception, 13
+296,passive_perception, 11
+297,darkvision, 60 ft.
+297,passive_perception,9
+298,darkvision, 60 ft.
+298,passive_perception,10
+299,passive_perception, 13
+300,passive_perception, 17
+301,passive_perception, 17
+302,passive_perception, 17
+303,passive_perception, 12
+304,passive_perception, 12
+305,passive_perception, 12
+306,passive_perception, 12
+307,passive_perception, 12
+308,darkvision, 60 ft.
+308,passive_perception,12
+309,darkvision, 60 ft.
+309,passive_perception,15
+310,darkvision, 60 ft.
+310,passive_perception,15
+311,darkvision, 60 ft.
+311,passive_perception,15
+312,passive_perception, 14
+313,passive_perception, 14
+314,passive_perception, 14
+315,blindsight, 10 ft.
+315,darkvision,60ft.
+315,passive_perception,14
+316,darkvision, 60 ft.
+316,passive_perception,13
+317,darkvision, 120 ft.
+317,passive_perception,12
+318,passive_perception, 15
+319,passive_perception, 13
+320,darkvision, 60 ft.
+320,passive_perception,14
+321,darkvision, 60 ft.
+321,passive_perception,12
+322,darkvision, 60 ft.
+322,passive_perception,14
+323,darkvision, 60 ft.
+323,tremorsense,60ft.
+323,passive_perception,16
+324,blindsight, 30 ft.
+324,darkvision,120ft.
+324,passive_perception,16
+325,blindsight, 30 ft.
+325,darkvision,120ft.
+325,passive_perception,19
+326,blindsight, 30 ft.
+326,darkvision,120ft.
+326,passive_perception,16
+327,blindsight, 30 ft.
+327,darkvision,120ft.
+327,passive_perception,17
+328,blindsight, 30 ft.
+328,darkvision,120ft.
+328,passive_perception,17
+329,blindsight, 30 ft.
+329,darkvision,120ft.
+329,passive_perception,19
+330,blindsight, 30 ft.
+330,darkvision,120ft.
+330,passive_perception,17
+331,blindsight, 30 ft.
+331,darkvision,120ft.
+331,passive_perception,18
+332,blindsight, 30 ft.
+332,darkvision,120ft.
+332,passive_perception,18
+333,blindsight, 30 ft.
+333,darkvision,120ft.
+333,passive_perception,16
+334,darkvision, 60 ft.
+334,passive_perception,8
