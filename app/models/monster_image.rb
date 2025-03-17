@@ -1,5 +1,5 @@
 class MonsterImage < ApplicationRecord
-  validates :url, presence: true, uniqueness: true
+  validates :url, uniqueness: true
 
   belongs_to :monster
 end
