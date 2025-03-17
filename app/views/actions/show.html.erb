@@ -1,3 +1,5 @@
+<% content_for(:html_title) { @actions.name }%>
+
 <h2 class="title is-2">All Monster Actions</h2>
 <ol class="ml-5">
   <% @actions.each do |action| %>
