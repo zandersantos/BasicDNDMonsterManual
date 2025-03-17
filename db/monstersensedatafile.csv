@@ -1,618 +1,618 @@
 monster_id,sense_type,sense_range
-1,darkvision, 120 ft.
-1,passive_perception,20
-2,passive_perception, 12
-3,blindsight, 60 ft.
-3,darkvision,120ft.
-3,passive_perception,21
-4,blindsight, 60 ft.
-4,darkvision,120ft.
-4,passive_perception,22
-5,blindsight, 60 ft.
-5,darkvision,120ft.
-5,passive_perception,21
-6,blindsight, 60 ft.
-6,darkvision,120ft.
-6,passive_perception,22
-7,blindsight, 60 ft.
-7,darkvision,120ft.
-7,passive_perception,22
-8,blindsight, 60 ft.
-8,darkvision,120ft.
-8,passive_perception,24
-9,blindsight, 60 ft.
-9,darkvision,120ft.
-9,passive_perception,22
-10,blindsight, 60 ft.
-10,darkvision,120ft.
-10,passive_perception,23
-11,blindsight, 60 ft.
-11,darkvision,120ft.
-11,passive_perception,21
-12,blindsight, 60 ft.
-12,darkvision,120ft.
-12,passive_perception,21
-13,darkvision, 60 ft.
-13,passive_perception,10
-14,blindsight, 60 ft.
-14,darkvision,120ft.
-14,passive_perception,26
-15,blindsight, 60 ft.
-15,darkvision,120ft.
-15,passive_perception,27
-16,blindsight, 60 ft.
-16,darkvision,120ft.
-16,passive_perception,24
-17,blindsight, 60 ft.
-17,darkvision,120ft.
-17,passive_perception,27
-18,blindsight, 60 ft.
-18,darkvision,120ft.
-18,passive_perception,27
-19,blindsight, 60 ft.
-19,darkvision,120ft.
-19,passive_perception,27
-20,blindsight, 60 ft.
-20,darkvision,120ft.
-20,passive_perception,27
-21,blindsight, 60 ft.
-21,darkvision,120ft.
-21,passive_perception,26
-22,blindsight, 60 ft.
-22,darkvision,120ft.
-22,passive_perception,26
-23,blindsight, 60 ft.
-23,darkvision,120ft.
-23,passive_perception,23
-24,truesight, 120 ft.
-24,passive_perception,20
-25,blindsight, 60 ft. (blind beyond this radius)
-25,passive_perception,6
-26,darkvision, 60 ft.
-26,tremorsense,60ft.
-26,passive_perception,11
-27,passive_perception, 13
-28,passive_perception, 12
-29,passive_perception, 13
-30,passive_perception, 10
-31,passive_perception, 10
-32,passive_perception, 10
-33,passive_perception, 11
-34,passive_perception, 11
-35,darkvision, 30 ft.
-35,passive_perception,11
-36,truesight, 120 ft.
-36,passive_perception,13
-37,passive_perception, 10
-38,passive_perception, 10
-39,darkvision, 120 ft.
-39,passive_perception,18
-40,darkvision, 60 ft.
-40,passive_perception,9
-41,blindsight, 60 ft.
-41,passive_perception,11
-42,darkvision, 120 ft.
-42,passive_perception,10
-43,darkvision, 90 ft.
-43,passive_perception,16
-44,passive_perception, 10
-45,passive_perception, 13
-46,blindsight, 10 ft.
-46,darkvision,60ft.
-46,passive_perception,14
-47,blindsight, 60 ft. (blind beyond this radius)
-47,passive_perception,8
-48,passive_perception, 10
-49,passive_perception, 14
-50,blindsight, 10 ft.
-50,darkvision,60ft.
-50,passive_perception,14
-51,passive_perception, 9
-52,darkvision, 120 ft.
-52,passive_perception,12
-53,blindsight, 10 ft.
-53,darkvision,60ft.
-53,passive_perception,14
-54,blindsight, 10 ft.
-54,darkvision,60ft.
-54,passive_perception,14
-55,passive_perception, 13
-56,darkvision, 60 ft.
-56,passive_perception,10
-57,darkvision, 60 ft.
-57,tremorsense,60ft.
-57,passive_perception,16
-58,passive_perception, 9
-59,passive_perception, 13
-60,passive_perception, 13
-61,darkvision, 120 ft.
-61,passive_perception,11
-62,darkvision, 60 ft.
-62,passive_perception,18
-63,darkvision, 60 ft.
-63,passive_perception,14
-64,darkvision, 60 ft.
-64,passive_perception,9
-65,darkvision, 60 ft.
-65,passive_perception,11
-66,passive_perception, 17
-67,darkvision, 60 ft.
-67,passive_perception,11
-68,passive_perception, 10
-69,blindsight, 10 ft.
-69,passive_perception,10
-70,blindsight, 10 ft.
-70,darkvision,60ft.
-70,passive_perception,14
-71,truesight, 120 ft.
-71,passive_perception,15
-72,blindsight, 30 ft.
-72,passive_perception,9
-73,passive_perception, 10
-74,passive_perception, 11
-75,passive_perception, 10
-76,blindsight, 60 ft.
-76,passive_perception,10
-77,darkvision, 120 ft.
-77,passive_perception,15
-78,darkvision, 120 ft.
-78,passive_perception,12
-79,passive_perception, 12
-80,darkvision, 120 ft.
-80,passive_perception,19
-81,passive_perception, 13
-82,darkvision, 120 ft.
-82,passive_perception,13
-83,darkvision, 60 ft.
-83,passive_perception,11
-84,passive_perception, 10
-85,darkvision, 120 ft.
-85,passive_perception,11
-86,darkvision, 60 ft.
-86,passive_perception,9
-87,darkvision, 120 ft.
-87,passive_perception,15
-88,darkvision, 120 ft.
-88,passive_perception,12
-89,passive_perception, 14
-90,darkvision, 60 ft.
-90,passive_perception,14
-91,darkvision, 120 ft.
-91,passive_perception,10
-92,darkvision, 60 ft.
-92,passive_perception,12
-93,passive_perception, 14
-94,darkvision, 60 ft.
-94,tremorsense,60ft.
-94,passive_perception,10
-95,darkvision, 120 ft.
-95,passive_perception,12
-96,passive_perception, 10
-97,passive_perception, 10
-98,truesight, 120 ft.
-98,passive_perception,12
-99,darkvision, 60 ft.
-99,passive_perception,13
-100,darkvision, 60 ft.
-100,passive_perception,14
-101,darkvision, 60 ft.
-101,passive_perception,10
-102,passive_perception, 16
-103,darkvision, 60 ft.
-103,passive_perception,10
-104,blindsight, 10 ft.
-104,passive_perception,11
-105,blindsight, 60 ft. (blind beyond this radius)
-105,passive_perception,7
-106,darkvision, 30 ft.
-106,passive_perception,11
-107,passive_perception, 13
-108,darkvision, 60 ft.
-108,passive_perception,10
-109,blindsight, 60 ft. (blind beyond this radius)
-109,passive_perception,8
-110,darkvision, 60 ft.
-110,passive_perception,10
-111,darkvision, 60 ft.
-111,passive_perception,11
-112,darkvision, 60 ft.
-112,passive_perception,10
-113,passive_perception, 14
-114,darkvision, 30 ft.
-114,passive_perception,11
-115,blindsight, 60 ft.
-115,passive_perception,11
-116,passive_perception, 8
-117,blindsight, 30 ft.
-117,passive_perception,8
-118,blindsight, 10 ft.
-118,passive_perception,12
-119,blindsight, 30 ft.
-119,passive_perception,9
-120,passive_perception, 10
-121,passive_perception, 14
-122,passive_perception, 14
-123,blindsight, 30 ft.
-123,passive_perception,8
-124,darkvision, 30 ft.
-124,passive_perception,12
-125,passive_perception, 11
-126,passive_perception, 13
-127,darkvision, 30 ft.
-127,passive_perception,10
-128,darkvision, 60 ft.
-128,passive_perception,14
-129,darkvision, 120 ft.
-129,passive_perception,15
-130,blindsight, 10 ft.
-130,passive_perception,12
-131,darkvision, 60 ft.
-131,passive_perception,10
-132,darkvision, 60 ft.
-132,passive_perception,10
-133,blindsight, 60 ft.
-133,passive_perception,9
-134,passive_perception, 11
-135,blindsight, 60 ft.
-135,passive_perception,13
-136,blindsight, 10 ft.
-136,darkvision,60ft.
-136,passive_perception,10
-137,darkvision, 30 ft.
-137,passive_perception,10
-138,passive_perception, 13
-139,passive_perception, 10
-140,darkvision, 60 ft.
-140,passive_perception,13
-141,blindsight, 10 ft.
-141,darkvision,60ft.
-141,passive_perception,13
-142,darkvision, 60 ft.
-142,passive_perception,10
-143,truesight, 120 ft.
-143,passive_perception,13
-144,passive_perception, 11
-145,darkvision, 60 ft.
-145,passive_perception,10
-146,passive_perception, 10
-147,darkvision, 60 ft.
-147,passive_perception,9
-148,blindsight, 10 ft.
-148,darkvision,60ft.
-148,passive_perception,14
-149,darkvision, 60 ft.
-149,passive_perception,14
-150,blindsight, 60 ft. (blind beyond this radius)
-150,passive_perception,8
-151,blindsight, 10 ft.
-151,darkvision,60ft.
-151,passive_perception,14
-152,darkvision, 60 ft.
-152,passive_perception,14
-153,darkvision, 60 ft.
-153,passive_perception,12
-154,darkvision, 60 ft.
-154,passive_perception,15
-155,blindsight, 30 ft. or 10 ft. while deafened (blind beyond this radius)
-155,passive_perception,13
-156,passive_perception, 12
-157,darkvision, 60 ft.
-157,passive_perception,14
-158,truesight, 120 ft.
-158,passive_perception,18
-159,blindsight, 10 ft.
-159,darkvision,60ft.
-159,passive_perception,12
-160,passive_perception, 10
-161,passive_perception, 14
-162,darkvision, 60 ft.
-162,passive_perception,15
-163,darkvision, 120 ft.
-163,passive_perception,11
-164,passive_perception, 12
-165,passive_perception, 15
-166,darkvision, 60 ft.
-166,passive_perception,10
-167,darkvision, 60 ft.
-167,passive_perception,10
-168,darkvision, 120 ft.
-168,passive_perception,13
-169,darkvision, 30 ft.
-169,passive_perception,12
-170,darkvision, 60 ft.
-170,passive_perception,16
-171,passive_perception, 13
-172,blindsight, 60 ft.
-172,darkvision,120ft.
-172,passive_perception,12
-173,darkvision, 60 ft.
-173,passive_perception,12
-174,darkvision, 120 ft.
-174,passive_perception,11
-175,darkvision, 60 ft.
-175,passive_perception,18
-176,darkvision, 120 ft.
-176,passive_perception,10
-177,passive_perception, 13
-178,blindsight, 120 ft.
-178,passive_perception,13
-179,passive_perception, 10
-180,darkvision, 60 ft.
-180,passive_perception,8
-181,truesight, 120 ft.
-181,passive_perception,14
-182,darkvision, 60 ft.
-182,passive_perception,12
-183,darkvision, 120 ft.
-183,passive_perception,10
-184,truesight, 120 ft.
-184,passive_perception,19
-185,passive_perception, 13
-186,darkvision, 30 ft.
-186,passive_perception,9
-187,passive_perception, 13
-188,passive_perception, 11
-189,darkvision, 60 ft.
-189,passive_perception,10
-190,darkvision, 60 ft.
-190,passive_perception,10
-191,passive_perception, 10
-192,darkvision, 60 ft.
-192,passive_perception,11
-193,truesight, 120 ft.
-193,passive_perception,13
-194,passive_perception, 13
-195,darkvision, 60 ft.
-195,passive_perception,14
-196,passive_perception, 12
-197,darkvision, 60 ft.
-197,passive_perception,10
-198,darkvision, 60 ft.
-198,passive_perception,11
-199,darkvision, 60 ft.
-199,passive_perception,17
-200,darkvision, 60 ft.
-200,passive_perception,9
-201,passive_perception, 10
-202,darkvision, 60 ft.
-202,passive_perception,10
-203,darkvision, 60 ft.
-203,passive_perception,14
-204,truesight, 120 ft.
-204,passive_perception,11
-205,darkvision, 120 ft.
-205,passive_perception,16
-206,passive_perception, 11
-207,passive_perception, 12
-208,blindsight, 60 ft. (blind beyond this radius)
-208,passive_perception,8
-209,darkvision, 30 ft.
-209,passive_perception,12
-210,darkvision, 60 ft.
-210,passive_perception,8
-211,darkvision, 60 ft.
-211,passive_perception,8
-212,darkvision, 60 ft.
-212,passive_perception,14
-213,darkvision, 60 ft.
-213,passive_perception,10
-214,darkvision, 120 ft.
-214,passive_perception,11
-215,darkvision, 120 ft.
-215,passive_perception,13
-216,darkvision, 60 ft.
-216,passive_perception,13
-217,passive_perception, 14
-218,passive_perception, 16
-219,darkvision, 60 ft.
-219,passive_perception,10
-220,truesight, 120 ft.
-220,passive_perception,14
-221,truesight, 120 ft.
-221,passive_perception,21
-222,passive_perception, 13
-223,blindsight, 10 ft.
-223,passive_perception,10
-224,passive_perception, 13
-225,passive_perception, 10
-226,passive_perception, 13
-227,blindsight, 10 ft.
-227,darkvision,60ft.
-227,passive_perception,13
-228,blindsight, 30 ft.
-228,tremorsense,60ft.
-228,passive_perception,9
-229,darkvision, 120 ft.
-229,passive_perception,10
-230,darkvision, 60 ft.
-230,passive_perception,8
-231,darkvision, 60 ft.
-231,passive_perception,13
-232,darkvision, 30 ft.
-232,passive_perception,10
-233,passive_perception, 13
-234,blindsight, 10 ft.
-234,darkvision,60ft.
-234,passive_perception,14
-235,blindsight, 30 ft.
-235,passive_perception,12
-236,darkvision, 60 ft.
-236,tremorsense,60ft.
-236,passive_perception,10
-237,passive_perception, 11
-238,passive_perception, 10
-239,passive_perception, 14
-240,darkvision, 60 ft.
-240,passive_perception,16
-241,blindsight, 60 ft. (blind beyond this radius)
-241,passive_perception,6
-242,darkvision, 60 ft.
-242,passive_perception,11
-243,passive_perception, 13
-244,darkvision, 120 ft.
-244,passive_perception,15
-245,darkvision, 60 ft.
-245,passive_perception,10
-246,passive_perception, 12
-247,blindsight, 10 ft.
-247,passive_perception,9
-248,passive_perception, 15
-249,darkvision, 60 ft.
-249,passive_perception,11
-250,passive_perception, 10
-251,darkvision, 60 ft.
-251,passive_perception,10
-252,blindsight, 60 ft. (blind beyond this radius)
-252,passive_perception,10
-253,blindsight, 10 ft.
-253,darkvision,60ft.
-253,passive_perception,10
-254,blindsight, 30 ft. (blind beyond this radius)
-254,passive_perception,6
-255,blindsight, 10 ft.
-255,darkvision,60ft.
-255,passive_perception,14
-256,darkvision, 60 ft.
-256,passive_perception,9
-257,truesight, 120 ft.
-257,passive_perception,24
-258,darkvision, 60 ft.
-258,passive_perception,10
-259,darkvision, 30 ft.
-259,passive_perception,12
-260,darkvision, 60 ft.
-260,passive_perception,12
-261,passive_perception, 13
-262,passive_perception, 16
-263,darkvision, 60 ft.
-263,passive_perception,10
-264,darkvision, 60 ft.
-264,passive_perception,9
-265,darkvision, 60 ft.
-265,passive_perception,14
-266,darkvision, 120 ft.
-266,passive_perception,10
-267,passive_perception, 19
-268,darkvision, 60 ft.
-268,passive_perception,15
-269,blindsight, 60 ft.
-269,passive_perception,11
-270,blindsight, 10 ft.
-270,passive_perception,8
-271,blindsight, 10 ft.
-271,passive_perception,8
-272,blindsight, 10 ft.
-272,passive_perception,8
-273,blindsight, 10 ft.
-273,passive_perception,10
-274,darkvision, 60 ft.
-274,passive_perception,8
-275,darkvision, 30 ft.
-275,passive_perception,10
-276,passive_perception, 15
-277,blindsight, 10 ft.
-277,passive_perception,8
-278,blindsight, 10 ft.
-278,passive_perception,8
-279,blindsight, 120 ft.
-279,passive_perception,10
-280,passive_perception, 10
-281,darkvision, 60 ft.
-281,passive_perception,13
-282,passive_perception, 13
-283,passive_perception, 10
-284,passive_perception, 10
-285,darkvision, 60 ft.
-285,passive_perception,12
-286,passive_perception, 14
-287,darkvision, 60 ft.
-287,passive_perception,13
-288,darkvision, 120 ft.
-288,passive_perception,17
-289,darkvision, 120 ft.
-289,passive_perception,17
-290,darkvision, 120 ft.
-290,passive_perception,17
-291,darkvision, 60 ft.
-291,passive_perception,13
-292,passive_perception, 12
-293,blindsight, 30 ft. (blind beyond this radius)
-293,passive_perception,6
-294,darkvision, 120 ft.
-294,passive_perception,11
-295,passive_perception, 13
-296,passive_perception, 11
-297,darkvision, 60 ft.
-297,passive_perception,9
-298,darkvision, 60 ft.
-298,passive_perception,10
-299,passive_perception, 13
-300,passive_perception, 17
-301,passive_perception, 17
-302,passive_perception, 17
-303,passive_perception, 12
-304,passive_perception, 12
-305,passive_perception, 12
-306,passive_perception, 12
-307,passive_perception, 12
-308,darkvision, 60 ft.
-308,passive_perception,12
-309,darkvision, 60 ft.
-309,passive_perception,15
-310,darkvision, 60 ft.
-310,passive_perception,15
-311,darkvision, 60 ft.
-311,passive_perception,15
-312,passive_perception, 14
-313,passive_perception, 14
-314,passive_perception, 14
-315,blindsight, 10 ft.
-315,darkvision,60ft.
-315,passive_perception,14
-316,darkvision, 60 ft.
-316,passive_perception,13
-317,darkvision, 120 ft.
-317,passive_perception,12
-318,passive_perception, 15
-319,passive_perception, 13
-320,darkvision, 60 ft.
-320,passive_perception,14
-321,darkvision, 60 ft.
-321,passive_perception,12
-322,darkvision, 60 ft.
-322,passive_perception,14
-323,darkvision, 60 ft.
-323,tremorsense,60ft.
-323,passive_perception,16
-324,blindsight, 30 ft.
-324,darkvision,120ft.
-324,passive_perception,16
-325,blindsight, 30 ft.
-325,darkvision,120ft.
-325,passive_perception,19
-326,blindsight, 30 ft.
-326,darkvision,120ft.
-326,passive_perception,16
-327,blindsight, 30 ft.
-327,darkvision,120ft.
-327,passive_perception,17
-328,blindsight, 30 ft.
-328,darkvision,120ft.
-328,passive_perception,17
-329,blindsight, 30 ft.
-329,darkvision,120ft.
-329,passive_perception,19
-330,blindsight, 30 ft.
-330,darkvision,120ft.
-330,passive_perception,17
-331,blindsight, 30 ft.
-331,darkvision,120ft.
-331,passive_perception,18
-332,blindsight, 30 ft.
-332,darkvision,120ft.
-332,passive_perception,18
-333,blindsight, 30 ft.
-333,darkvision,120ft.
-333,passive_perception,16
-334,darkvision, 60 ft.
-334,passive_perception,8
+1,1, 120 ft.
+1,2,20
+2,2, 12
+3,3, 60 ft.
+3,1,120ft.
+3,2,21
+4,3, 60 ft.
+4,1,120ft.
+4,2,22
+5,3, 60 ft.
+5,1,120ft.
+5,2,21
+6,3, 60 ft.
+6,1,120ft.
+6,2,22
+7,3, 60 ft.
+7,1,120ft.
+7,2,22
+8,3, 60 ft.
+8,1,120ft.
+8,2,24
+9,3, 60 ft.
+9,1,120ft.
+9,2,22
+10,3, 60 ft.
+10,1,120ft.
+10,2,23
+11,3, 60 ft.
+11,1,120ft.
+11,2,21
+12,3, 60 ft.
+12,1,120ft.
+12,2,21
+13,1, 60 ft.
+13,2,10
+14,3, 60 ft.
+14,1,120ft.
+14,2,26
+15,3, 60 ft.
+15,1,120ft.
+15,2,27
+16,3, 60 ft.
+16,1,120ft.
+16,2,24
+17,3, 60 ft.
+17,1,120ft.
+17,2,27
+18,3, 60 ft.
+18,1,120ft.
+18,2,27
+19,3, 60 ft.
+19,1,120ft.
+19,2,27
+20,3, 60 ft.
+20,1,120ft.
+20,2,27
+21,3, 60 ft.
+21,1,120ft.
+21,2,26
+22,3, 60 ft.
+22,1,120ft.
+22,2,26
+23,3, 60 ft.
+23,1,120ft.
+23,2,23
+24,4, 120 ft.
+24,2,20
+25,3, 60 ft. (blind beyond this radius)
+25,2,6
+26,1, 60 ft.
+26,5,60ft.
+26,2,11
+27,2, 13
+28,2, 12
+29,2, 13
+30,2, 10
+31,2, 10
+32,2, 10
+33,2, 11
+34,2, 11
+35,1, 30 ft.
+35,2,11
+36,4, 120 ft.
+36,2,13
+37,2, 10
+38,2, 10
+39,1, 120 ft.
+39,2,18
+40,1, 60 ft.
+40,2,9
+41,3, 60 ft.
+41,2,11
+42,1, 120 ft.
+42,2,10
+43,1, 90 ft.
+43,2,16
+44,2, 10
+45,2, 13
+46,3, 10 ft.
+46,1,60ft.
+46,2,14
+47,3, 60 ft. (blind beyond this radius)
+47,2,8
+48,2, 10
+49,2, 14
+50,3, 10 ft.
+50,1,60ft.
+50,2,14
+51,2, 9
+52,1, 120 ft.
+52,2,12
+53,3, 10 ft.
+53,1,60ft.
+53,2,14
+54,3, 10 ft.
+54,1,60ft.
+54,2,14
+55,2, 13
+56,1, 60 ft.
+56,2,10
+57,1, 60 ft.
+57,5,60ft.
+57,2,16
+58,2, 9
+59,2, 13
+60,2, 13
+61,1, 120 ft.
+61,2,11
+62,1, 60 ft.
+62,2,18
+63,1, 60 ft.
+63,2,14
+64,1, 60 ft.
+64,2,9
+65,1, 60 ft.
+65,2,11
+66,2, 17
+67,1, 60 ft.
+67,2,11
+68,2, 10
+69,3, 10 ft.
+69,2,10
+70,3, 10 ft.
+70,1,60ft.
+70,2,14
+71,4, 120 ft.
+71,2,15
+72,3, 30 ft.
+72,2,9
+73,2, 10
+74,2, 11
+75,2, 10
+76,3, 60 ft.
+76,2,10
+77,1, 120 ft.
+77,2,15
+78,1, 120 ft.
+78,2,12
+79,2, 12
+80,1, 120 ft.
+80,2,19
+81,2, 13
+82,1, 120 ft.
+82,2,13
+83,1, 60 ft.
+83,2,11
+84,2, 10
+85,1, 120 ft.
+85,2,11
+86,1, 60 ft.
+86,2,9
+87,1, 120 ft.
+87,2,15
+88,1, 120 ft.
+88,2,12
+89,2, 14
+90,1, 60 ft.
+90,2,14
+91,1, 120 ft.
+91,2,10
+92,1, 60 ft.
+92,2,12
+93,2, 14
+94,1, 60 ft.
+94,5,60ft.
+94,2,10
+95,1, 120 ft.
+95,2,12
+96,2, 10
+97,2, 10
+98,4, 120 ft.
+98,2,12
+99,1, 60 ft.
+99,2,13
+100,1, 60 ft.
+100,2,14
+101,1, 60 ft.
+101,2,10
+102,2, 16
+103,1, 60 ft.
+103,2,10
+104,3, 10 ft.
+104,2,11
+105,3, 60 ft. (blind beyond this radius)
+105,2,7
+106,1, 30 ft.
+106,2,11
+107,2, 13
+108,1, 60 ft.
+108,2,10
+109,3, 60 ft. (blind beyond this radius)
+109,2,8
+110,1, 60 ft.
+110,2,10
+111,1, 60 ft.
+111,2,11
+112,1, 60 ft.
+112,2,10
+113,2, 14
+114,1, 30 ft.
+114,2,11
+115,3, 60 ft.
+115,2,11
+116,2, 8
+117,3, 30 ft.
+117,2,8
+118,3, 10 ft.
+118,2,12
+119,3, 30 ft.
+119,2,9
+120,2, 10
+121,2, 14
+122,2, 14
+123,3, 30 ft.
+123,2,8
+124,1, 30 ft.
+124,2,12
+125,2, 11
+126,2, 13
+127,1, 30 ft.
+127,2,10
+128,1, 60 ft.
+128,2,14
+129,1, 120 ft.
+129,2,15
+130,3, 10 ft.
+130,2,12
+131,1, 60 ft.
+131,2,10
+132,1, 60 ft.
+132,2,10
+133,3, 60 ft.
+133,2,9
+134,2, 11
+135,3, 60 ft.
+135,2,13
+136,3, 10 ft.
+136,1,60ft.
+136,2,10
+137,1, 30 ft.
+137,2,10
+138,2, 13
+139,2, 10
+140,1, 60 ft.
+140,2,13
+141,3, 10 ft.
+141,1,60ft.
+141,2,13
+142,1, 60 ft.
+142,2,10
+143,4, 120 ft.
+143,2,13
+144,2, 11
+145,1, 60 ft.
+145,2,10
+146,2, 10
+147,1, 60 ft.
+147,2,9
+148,3, 10 ft.
+148,1,60ft.
+148,2,14
+149,1, 60 ft.
+149,2,14
+150,3, 60 ft. (blind beyond this radius)
+150,2,8
+151,3, 10 ft.
+151,1,60ft.
+151,2,14
+152,1, 60 ft.
+152,2,14
+153,1, 60 ft.
+153,2,12
+154,1, 60 ft.
+154,2,15
+155,3, 30 ft. or 10 ft. while deafened (blind beyond this radius)
+155,2,13
+156,2, 12
+157,1, 60 ft.
+157,2,14
+158,4, 120 ft.
+158,2,18
+159,3, 10 ft.
+159,1,60ft.
+159,2,12
+160,2, 10
+161,2, 14
+162,1, 60 ft.
+162,2,15
+163,1, 120 ft.
+163,2,11
+164,2, 12
+165,2, 15
+166,1, 60 ft.
+166,2,10
+167,1, 60 ft.
+167,2,10
+168,1, 120 ft.
+168,2,13
+169,1, 30 ft.
+169,2,12
+170,1, 60 ft.
+170,2,16
+171,2, 13
+172,3, 60 ft.
+172,1,120ft.
+172,2,12
+173,1, 60 ft.
+173,2,12
+174,1, 120 ft.
+174,2,11
+175,1, 60 ft.
+175,2,18
+176,1, 120 ft.
+176,2,10
+177,2, 13
+178,3, 120 ft.
+178,2,13
+179,2, 10
+180,1, 60 ft.
+180,2,8
+181,4, 120 ft.
+181,2,14
+182,1, 60 ft.
+182,2,12
+183,1, 120 ft.
+183,2,10
+184,4, 120 ft.
+184,2,19
+185,2, 13
+186,1, 30 ft.
+186,2,9
+187,2, 13
+188,2, 11
+189,1, 60 ft.
+189,2,10
+190,1, 60 ft.
+190,2,10
+191,2, 10
+192,1, 60 ft.
+192,2,11
+193,4, 120 ft.
+193,2,13
+194,2, 13
+195,1, 60 ft.
+195,2,14
+196,2, 12
+197,1, 60 ft.
+197,2,10
+198,1, 60 ft.
+198,2,11
+199,1, 60 ft.
+199,2,17
+200,1, 60 ft.
+200,2,9
+201,2, 10
+202,1, 60 ft.
+202,2,10
+203,1, 60 ft.
+203,2,14
+204,4, 120 ft.
+204,2,11
+205,1, 120 ft.
+205,2,16
+206,2, 11
+207,2, 12
+208,3, 60 ft. (blind beyond this radius)
+208,2,8
+209,1, 30 ft.
+209,2,12
+210,1, 60 ft.
+210,2,8
+211,1, 60 ft.
+211,2,8
+212,1, 60 ft.
+212,2,14
+213,1, 60 ft.
+213,2,10
+214,1, 120 ft.
+214,2,11
+215,1, 120 ft.
+215,2,13
+216,1, 60 ft.
+216,2,13
+217,2, 14
+218,2, 16
+219,1, 60 ft.
+219,2,10
+220,4, 120 ft.
+220,2,14
+221,4, 120 ft.
+221,2,21
+222,2, 13
+223,3, 10 ft.
+223,2,10
+224,2, 13
+225,2, 10
+226,2, 13
+227,3, 10 ft.
+227,1,60ft.
+227,2,13
+228,3, 30 ft.
+228,5,60ft.
+228,2,9
+229,1, 120 ft.
+229,2,10
+230,1, 60 ft.
+230,2,8
+231,1, 60 ft.
+231,2,13
+232,1, 30 ft.
+232,2,10
+233,2, 13
+234,3, 10 ft.
+234,1,60ft.
+234,2,14
+235,3, 30 ft.
+235,2,12
+236,1, 60 ft.
+236,5,60ft.
+236,2,10
+237,2, 11
+238,2, 10
+239,2, 14
+240,1, 60 ft.
+240,2,16
+241,3, 60 ft. (blind beyond this radius)
+241,2,6
+242,1, 60 ft.
+242,2,11
+243,2, 13
+244,1, 120 ft.
+244,2,15
+245,1, 60 ft.
+245,2,10
+246,2, 12
+247,3, 10 ft.
+247,2,9
+248,2, 15
+249,1, 60 ft.
+249,2,11
+250,2, 10
+251,1, 60 ft.
+251,2,10
+252,3, 60 ft. (blind beyond this radius)
+252,2,10
+253,3, 10 ft.
+253,1,60ft.
+253,2,10
+254,3, 30 ft. (blind beyond this radius)
+254,2,6
+255,3, 10 ft.
+255,1,60ft.
+255,2,14
+256,1, 60 ft.
+256,2,9
+257,4, 120 ft.
+257,2,24
+258,1, 60 ft.
+258,2,10
+259,1, 30 ft.
+259,2,12
+260,1, 60 ft.
+260,2,12
+261,2, 13
+262,2, 16
+263,1, 60 ft.
+263,2,10
+264,1, 60 ft.
+264,2,9
+265,1, 60 ft.
+265,2,14
+266,1, 120 ft.
+266,2,10
+267,2, 19
+268,1, 60 ft.
+268,2,15
+269,3, 60 ft.
+269,2,11
+270,3, 10 ft.
+270,2,8
+271,3, 10 ft.
+271,2,8
+272,3, 10 ft.
+272,2,8
+273,3, 10 ft.
+273,2,10
+274,1, 60 ft.
+274,2,8
+275,1, 30 ft.
+275,2,10
+276,2, 15
+277,3, 10 ft.
+277,2,8
+278,3, 10 ft.
+278,2,8
+279,3, 120 ft.
+279,2,10
+280,2, 10
+281,1, 60 ft.
+281,2,13
+282,2, 13
+283,2, 10
+284,2, 10
+285,1, 60 ft.
+285,2,12
+286,2, 14
+287,1, 60 ft.
+287,2,13
+288,1, 120 ft.
+288,2,17
+289,1, 120 ft.
+289,2,17
+290,1, 120 ft.
+290,2,17
+291,1, 60 ft.
+291,2,13
+292,2, 12
+293,3, 30 ft. (blind beyond this radius)
+293,2,6
+294,1, 120 ft.
+294,2,11
+295,2, 13
+296,2, 11
+297,1, 60 ft.
+297,2,9
+298,1, 60 ft.
+298,2,10
+299,2, 13
+300,2, 17
+301,2, 17
+302,2, 17
+303,2, 12
+304,2, 12
+305,2, 12
+306,2, 12
+307,2, 12
+308,1, 60 ft.
+308,2,12
+309,1, 60 ft.
+309,2,15
+310,1, 60 ft.
+310,2,15
+311,1, 60 ft.
+311,2,15
+312,2, 14
+313,2, 14
+314,2, 14
+315,3, 10 ft.
+315,1,60ft.
+315,2,14
+316,1, 60 ft.
+316,2,13
+317,1, 120 ft.
+317,2,12
+318,2, 15
+319,2, 13
+320,1, 60 ft.
+320,2,14
+321,1, 60 ft.
+321,2,12
+322,1, 60 ft.
+322,2,14
+323,1, 60 ft.
+323,5,60ft.
+323,2,16
+324,3, 30 ft.
+324,1,120ft.
+324,2,16
+325,3, 30 ft.
+325,1,120ft.
+325,2,19
+326,3, 30 ft.
+326,1,120ft.
+326,2,16
+327,3, 30 ft.
+327,1,120ft.
+327,2,17
+328,3, 30 ft.
+328,1,120ft.
+328,2,17
+329,3, 30 ft.
+329,1,120ft.
+329,2,19
+330,3, 30 ft.
+330,1,120ft.
+330,2,17
+331,3, 30 ft.
+331,1,120ft.
+331,2,18
+332,3, 30 ft.
+332,1,120ft.
+332,2,18
+333,3, 30 ft.
+333,1,120ft.
+333,2,16
+334,1, 60 ft.
+334,2,8

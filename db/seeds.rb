@@ -3,10 +3,10 @@ require "csv"
 #Monster Create
 
 
-
+MonsterSense.delete_all
 Monster.delete_all
 Sense.delete_all
-Monster_Sense.delete_all
+
 
 filenamemonster = Rails.root.join "db/monstersdatafile.csv"
 puts "Reading in the file from here #{filenamemonster}"
@@ -53,4 +53,29 @@ senses.each do |sense|
   end
 end
 
-puts "Created #{Sense.count} Names"
+puts "Created #{Sense.count} Senses"
+
+
+
+filenamemonstersense= Rails.root.join "db/monstersensedatafile.csv"
+puts "Reading in the file from here #{filenamemonstersense}"
+
+csv_data = File.read(filenamemonstersense)
+monstersenses = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+
+
+monstersenses.each do |monstersense|
+
+    # Create monster record with armor_class value
+  monstersense_record = MonsterSense.create(monster_id: monstersense["monster_id"], sense_id: monstersense["sense_type"], sense_range: monstersense["sense_range"])
+
+
+  if monstersense_record.valid?
+    puts "#{monstersense["sense_range"]} Created"
+  else
+    puts "Unable to create the sense type #{monstersense["sense_range"]}"
+    puts "Errors: #{monstersense_record.errors.full_messages.join(", ")}"
+  end
+end
+
+puts "Created #{MonsterSense.count} MonsterSenses"
