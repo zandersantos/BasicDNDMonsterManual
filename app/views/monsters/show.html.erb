@@ -1,2 +1,11 @@
 <h2 class="title is-2"><%= @monsters.name%></h2>
 
+<p><strong>Total Hit Points: </strong><%= @monsters.hitpoints%></p>
+
+<progress class="progress is-link mt-1" value="<%= @monsters.hitpoints %>" max="680">
+  <%= @monsters.hitpoints %> out of 680 Hit Points!
+</progress>
+
+<p class="mt-4"><strong>Armour Class: </strong><%= @monsters.armour_class%></p>
+<p class="mt-4"><strong>Hit Dice: </strong><%= @monsters.hit_dice%></p>
+<p class="mt-4"><strong>Associated Image: </strong><%= @monsters.img_url%></p>
