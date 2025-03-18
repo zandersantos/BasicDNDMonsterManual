@@ -1,4 +1,12 @@
+<div class="navigation">
+  <%= link_to "List View", monsters_path(view: "list"), class: "text-link" %> |
+  <%= link_to "Detailed View", monsters_path(view: "detailed"), class: "text-link" %>
+</div>
 
-<% @monsters.each do |monster| %>
-  <%= render partial: "monsters/monster", locals: { monster: monster, monsteractions: monster.monster_actions } %>
+<% if @view_type == "list" %>
+  <%= render partial: "monsters/monster_list" %>
+<% elsif @view_type == "detailed" %>
+  <% @monsters.each do |monster| %>
+    <%= render partial: "monsters/monster", locals: { monster: monster, monsteractions: monster.monster_actions } %>
+  <% end %>
 <% end %>

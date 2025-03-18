@@ -3,7 +3,7 @@
 <h2 class="title is-2">All Monster Actions</h2>
 <ol class="ml-5">
   <% @actions.each do |action| %>
-    <li><%= link_to action.name, action%></li>
+    <li><%= link_to action.name, action%><%= action.monster_count%></li>
   <% end %>
 </ol>
 
