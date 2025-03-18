@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "monster_actions/index"
+  get "monster_actions/show"
   get "senses/index"
   get "senses/show"
   get "monster_images/index"
