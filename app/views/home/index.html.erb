@@ -11,7 +11,7 @@
     <p class= "mt-4"><%= link_to "See the Entire List of Monsters", monsters_path%></p>
   </div>
   <div class="column">
-    <h3 class="title is-3">Actions</h3>
+    <h3 class="title is-3">Top 10 Most Used Actions</h3>
     <ol class="ml-5">
       <% @actions.each do |action|%>
         <li><%= link_to action.name, action %></li>

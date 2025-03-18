@@ -1,5 +1,6 @@
 class ActionsController < ApplicationController
   def index
+
     @actions = Action.order("name ASC")
   end
 
