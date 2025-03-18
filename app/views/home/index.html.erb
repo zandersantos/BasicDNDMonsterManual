@@ -1,2 +1,22 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1 class="title is-2">All Dungeons and Dragons Monsters</h1>
+
+<div class="columns">
+  <div class="column">
+    <h3 class="title is-3">Monsters</h3>
+    <ol class="ml-5">
+      <% @monsters.each do |monster|%>
+        <li><%= link_to monster.name, monster %></li>
+      <% end %>
+    </ol>
+    <p class= "mt-4"><%= link_to "See the Entire List of Monsters", monsters_path%></p>
+  </div>
+  <div class="column">
+    <h3 class="title is-3">Actions</h3>
+    <ol class="ml-5">
+      <% @actions.each do |action|%>
+        <li><%= link_to action.name, action %></li>
+      <% end %>
+    </ol>
+    <p class= "mt-4"><%= link_to "See the Entire List of Action", actions_path%></p>
+  </div>
+</div>

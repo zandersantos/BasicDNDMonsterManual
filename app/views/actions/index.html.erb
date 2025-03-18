@@ -1,1 +1,7 @@
-<h2 class="title is-2"><%= @actions.name%></h2>
+<h2 class="title is-2">All Monster Actions</h2>
+<ol class="ml-5">
+  <% @actions.each do |action| %>
+    <li><%= link_to action.name, action%></li>
+  <% end %>
+</ol>
+
