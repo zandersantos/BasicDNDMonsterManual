@@ -1,7 +1,12 @@
-<h2 class="title is-2">All Monster Actions</h2>
-<ol class="ml-5">
-  <% @actions.each do |action| %>
-    <li><%= link_to action.name, action%></li>
-  <% end %>
-</ol>
+<div class="navigation">
+  <%= link_to "List View", actions_path(view: "list"), class: "button is-primary"%>
+  <%= link_to "Detailed View", actions_path(view: "detailed"), class: "button is-link"%>
+</div>
 
+<% if @view_type == "list" %>
+  <%= render partial: "actions/actionlist" %>
+<% elsif @view_type == "detailed" %>
+  <% @actions.each do |action| %>
+    <%= render partial: "actions/action", locals: { action: action, monsters: action.monsters } %>
+  <% end %>
+<% end %>

@@ -1,6 +1,6 @@
-<ul>
+<ul class="mt-4">
   <% @monsters.each do |monster| %>
-    <li><%= link_to monster.name, monster_path(monster) %></li>
+    <li class="mt-2"><%= link_to monster.name, monster_path(monster) %></li>
   <% end %>
 </ul>
 

@@ -1,6 +1,6 @@
 <div class="navigation">
-  <%= link_to "List View", monsters_path(view: "list"), class: "text-link" %> |
-  <%= link_to "Detailed View", monsters_path(view: "detailed"), class: "text-link" %>
+  <%= link_to "List View", monsters_path(view: "list"), class: "button is-primary"%>
+  <%= link_to "Detailed View", monsters_path(view: "detailed"), class: "button is-link"%>
 </div>
 
 <% if @view_type == "list" %>

@@ -1,15 +1,23 @@
 class ActionsController < ApplicationController
   def index
-
-    @actions = Action.order("name ASC")
+    @actions = Action
+                  .select("actions.*, COUNT(monster_actions.monster_id) AS monster_count")
+                  .left_joins(:monster_actions, :monsters)
+                  .group("actions.id")
+                  .order("name ASC")
+    @view_type = params[:view] || "list"
   end
 
   def show
-    @actions = Action
-    .select("actions.*, COUNT(monster_actions.monster_id) AS monster_count")
-    .joins(:monster_actions)
-    .where(id: params[:id])
-    .group("actions.id")
-    .first
+    @action = Action
+                .select("actions.*, COUNT(monster_actions.monster_id) AS monster_count")
+                .joins(:monster_actions)
+                .group("actions.id")
+                .find(params[:id])
+
+    @monsters = Monster
+                  .joins(:monster_actions)
+                  .where(monster_actions: { action_id: @action.id })
+                  .order("name ASC")
   end
 end
