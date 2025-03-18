@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "senses/index"
+  get "senses/show"
   get "monster_images/index"
   get "monster_images/show"
   root to: "home#index"
