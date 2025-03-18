@@ -1,6 +1,4 @@
-<h2 class="title is-2">All Dungeons and Dragons Monsters</h2>
-<ol class="ml-5">
-  <% @monsters.each do |monster| %>
-    <li><%= link_to monster.name, monster%></li>
-  <% end %>
-</ol>
+
+<% @monsters.each do |monster| %>
+  <%= render partial: "monsters/monster", locals: { monster: monster, monsteractions: monster.monster_actions } %>
+<% end %>

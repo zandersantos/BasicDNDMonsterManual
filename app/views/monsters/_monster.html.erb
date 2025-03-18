@@ -1,0 +1,18 @@
+<h2 class="title is-2 mt-6"><%= monster.name%></h2>
+
+<p><strong>Total Hit Points: </strong><%= monster.hitpoints%></p>
+
+<progress class="progress is-link mt-1" value="<%= monster.hitpoints %>" max="680">
+  <%= monster.hitpoints %> out of 680 Hit Points!
+</progress>
+
+<p class="mt-4"><strong>Armour Class: </strong><%= monster.armour_class%></p>
+<p class="mt-4"><strong>Hit Dice: </strong><%= monster.hit_dice%></p>
+<p class="mt-4"><strong>Associated Image: </strong><%= monster.img_url%></p>
+<h3 class="title is-4 mt-4 mb-3">Monster Actions</h3>
+<ul>
+  <% monsteractions.each do |monster_action| %>
+    <li class="mb-4"><strong><%= monster_action.action.name %></strong>: <%= monster_action.description %></li>
+  <% end %>
+</ul>
+<hr>
