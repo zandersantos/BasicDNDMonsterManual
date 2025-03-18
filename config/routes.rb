@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "monster_images/index"
+  get "monster_images/show"
   root to: "home#index"
   resources :monsters, only: [ :index, :show ]
   resources :actions, only: [ :index, :show ]

@@ -1,0 +1,2 @@
+module MonsterImagesHelper
+end
