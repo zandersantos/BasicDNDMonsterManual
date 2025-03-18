@@ -3,5 +3,6 @@ class MonsterSensesController < ApplicationController
   end
 
   def show
+
   end
 end
