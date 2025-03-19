@@ -1,2 +1,3 @@
-<h1>Senses#show</h1>
-<p>Find me in app/views/senses/show.html.erb</p>
+<% content_for(:html_title) { @sense.sense_type.capitalize } %>
+
+<%= render partial: "senses/sense", locals: { sense: @sense, monsters: @monsters } %>

@@ -8,13 +8,14 @@
 
 <p class="mt-4"><strong>Armour Class: </strong><%= monster.armour_class%></p>
 <p class="mt-4"><strong>Hit Dice: </strong><%= monster.hit_dice%></p>
-<p class="mt-4"><strong>Associated Image: </strong><%= monster.img_url%></p>
+<p class="mt-4"><strong>Associated Image: </strong>
+<img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4">
 
 <h3 class="title is-4 mt-4 mb-3">Monster Senses</h3>
 <ul>
   <% monstersenses.each do |monster_sense| %>
     <li class="mb-4">
-      <strong><%= monster_sense.sense_type.capitalize %></strong>: <%= monster_sense.sense_range %>
+      <strong><%= link_to monster_sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
     </li>
   <% end %>
 </ul>

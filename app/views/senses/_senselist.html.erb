@@ -1,0 +1,8 @@
+<ul>
+  <% @senses.each do |sense| %>
+    <li>
+      <%= link_to sense.sense_type.capitalize, sense_path(sense) %>
+      (<%= sense.monster_count || 0 %> monsters)
+    </li>
+  <% end %>
+</ul>
