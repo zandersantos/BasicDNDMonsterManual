@@ -1,4 +1,9 @@
-<h2 class="title is-2 mt-6"><%= monster.name%></h2>
+<% if show_link %>
+  <h2 class="title is-2 mt-6"><%= link_to monster.name, monster%></h2>
+<% else %>
+  <h2 class="title is-2 mt-6"><%= monster.name%></h2>
+<%end%>
+
 
 <p><strong>Total Hit Points: </strong><%= monster.hitpoints%></p>
 
@@ -15,7 +20,7 @@
 <ul>
   <% monstersenses.each do |monster_sense| %>
     <li class="mb-4">
-      <strong><%= link_to monster_sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
+      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
     </li>
   <% end %>
 </ul>

@@ -1,6 +1,6 @@
 class MonstersController < ApplicationController
   def index
-    @monsters = Monster.order("name ASC").includes(:monster_actions, :actions)
+    @monsters = Monster.order("name ASC").includes(:monster_actions, :actions, :monster_senses, :senses)
     @view_type = params[:view] || "list"
 
   end

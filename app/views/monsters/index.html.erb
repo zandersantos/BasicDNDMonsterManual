@@ -7,6 +7,6 @@
   <%= render partial: "monsters/monster_list" %>
 <% elsif @view_type == "detailed" %>
   <% @monsters.each do |monster| %>
-    <%= render partial: "monsters/monster", locals: { monster: monster, monsteractions: monster.monster_actions } %>
+    <%= render partial: "monsters/monster", collection: @monsters, locals: { show_link:true, monster: monster, monsteractions: monster.monster_actions, monstersenses: monster.monster_senses } %>
   <% end %>
 <% end %>
