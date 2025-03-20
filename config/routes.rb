@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :pages
+  get "/pages/:permalink", to: "pages#permalink", as: "pages_permalink"
   get "monster_senses/index"
   get "monster_senses/show"
   get "monster_actions/index"
