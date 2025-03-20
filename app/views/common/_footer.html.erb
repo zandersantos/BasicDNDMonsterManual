@@ -4,5 +4,8 @@
     <li><%= link_to "All Monsters", monsters_path%></li>
     <li><%= link_to "All Actions", actions_path%></li>
     <li><%= link_to "All Senses", senses_path%></li>
+    <% csm_pages.each do |page|%>
+      <li><%= link_to page.title, page_permalink_path(page.permalink) %></li>
+    <% end %>
   </ul>
 </footer>
