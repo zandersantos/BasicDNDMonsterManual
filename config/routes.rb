@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pages
   get "monster_senses/index"
   get "monster_senses/show"
   get "monster_actions/index"
