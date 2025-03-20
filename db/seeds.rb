@@ -2,9 +2,8 @@ require "csv"
 
 #MONSTER CREATION
 
-# MonsterSense.delete_all
 # Monster.delete_all
-# Sense.delete_all
+
 
 # filenamemonster = Rails.root.join "db/monstersdatafile.csv"
 # puts "Reading in the file from here #{filenamemonster}"
@@ -29,6 +28,8 @@ require "csv"
 
 
 #SENSES CREATION
+
+# Sense.delete_all
 # filenamesense= Rails.root.join "db/sensedata.csv"
 # puts "Reading in the file from here #{filenamesense}"
 
@@ -52,6 +53,8 @@ require "csv"
 
 
 #MONSTER SENSE CREATION
+
+# MonsterSense.delete_all
 # filenamemonstersense= Rails.root.join "db/monstersensedatafile.csv"
 # puts "Reading in the file from here #{filenamemonstersense}"
 
@@ -75,6 +78,8 @@ require "csv"
 
 
 # #ACTION CREATION
+
+# Action.delete_all
 # filenameaction= Rails.root.join "db/actiondata.csv"
 # puts "Reading in the file from here #{filenameaction}"
 
@@ -98,6 +103,8 @@ require "csv"
 # puts "Created #{Action.count} actions"
 
 #MonsterACTION CREATION
+
+# MonsterAction.delete_all
 # filenamemonsteraction= Rails.root.join "db/monsteractiondatafile.csv"
 # puts "Reading in the file from here #{filenamemonsteraction}"
 
@@ -123,24 +130,44 @@ require "csv"
 
 
 #MonsterImage CREATION
-filenamemonsterimage= Rails.root.join "db/imagedatafile.csv"
-puts "Reading in the file from here #{filenamemonsterimage}"
 
-csv_data = File.read(filenamemonsterimage)
-images = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
-puts "Headers: #{images.headers.inspect}" # Check the headers
+#MonsterImage.delete_all
+# filenamemonsterimage= Rails.root.join "db/imagedatafile.csv"
+# puts "Reading in the file from here #{filenamemonsterimage}"
 
-images.each do |image|
+# csv_data = File.read(filenamemonsterimage)
+# images = CSV.parse(csv_data, headers: true, encoding: 'utf-8')
+# puts "Headers: #{images.headers.inspect}" # Check the headers
 
-  # Create monster record with armor_class value
-  image_record = MonsterImage.create(url: image["image_url"], monster_id: image["monster_id"])
+# images.each do |image|
 
-  if image_record.valid?
-    puts "#{image["name"]} Created"
-  else
-    puts "Unable to create the action #{image["name"]}"
-    puts "Errors: #{image_record.errors.full_messages.join(", ")}"
-  end
-end
+#   # Create monster record with armor_class value
+#   image_record = MonsterImage.create(url: image["image_url"], monster_id: image["monster_id"])
 
-puts "Created #{MonsterImage.count} monster images"
+#   if image_record.valid?
+#     puts "#{image["name"]} Created"
+#   else
+#     puts "Unable to create the action #{image["name"]}"
+#     puts "Errors: #{image_record.errors.full_messages.join(", ")}"
+#   end
+# end
+
+# puts "Created #{MonsterImage.count} monster images"
+
+
+#Page CREATION
+Page.destroy_all
+
+Page.create(
+  title: "About the Data",
+  content: "This data was pulled from a API on GitHub: https://5e-bits.github.io/docs/, https://github.com/5e-bits/5e-database",
+  permalink: "about"
+)
+
+Page.create(
+  title: "Contact Us",
+  content: "Send me an email at zainzedd@gmail.com if you have any questions!",
+  permalink: "contact"
+)
+
+puts "Created #{Page.count} Pages"
