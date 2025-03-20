@@ -5,8 +5,10 @@
 
 <% if @view_type == "list" %>
   <%= render partial: "monsters/monster_list" %>
+  <%= paginate @monsters %>
 <% elsif @view_type == "detailed" %>
   <% @monsters.each do |monster| %>
     <%= render partial: "monsters/monster", collection: @monsters, locals: { show_link:true, monster: monster, monsteractions: monster.monster_actions, monstersenses: monster.monster_senses } %>
   <% end %>
+  <%= paginate @monsters %>
 <% end %>

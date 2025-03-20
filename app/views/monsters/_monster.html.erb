@@ -13,12 +13,8 @@
 
 <p class="mt-4"><strong>Armour Class: </strong><%= monster.armour_class%></p>
 <p class="mt-4"><strong>Hit Dice: </strong><%= monster.hit_dice%></p>
-<p class="mt-4"><strong>Associated Image: </strong>
-
-<% if !show_link %>
-  <img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4">
-<%end%>
-</p>
+<p class="mt-4"><strong>Associated Image: </strong></p>
+<img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4">
 
 <h3 class="title is-4 mt-4 mb-3">Monster Senses</h3>
 <ul>
