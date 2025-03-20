@@ -1,7 +1,7 @@
 class SensesController < ApplicationController
   def index
     @senses = Sense
-                  .select("actions.*, COUNT(monster_actions.monster_id) AS monster_count")
+                  .select("senses.*, COUNT(monster_senses.monster_id) AS monster_count")
                   .left_joins(:monster_senses)
                   .group("senses.id")
                   .order("sense_type ASC")

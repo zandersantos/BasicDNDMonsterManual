@@ -1,12 +1,10 @@
-<h1>Senses#index</h1>
-<p>Find me in app/views/senses/index.html.erb</p>
 <div class="navigation">
   <%= link_to "List View", senses_path(view: "list"), class: "button is-primary" %>
   <%= link_to "Detailed View", senses_path(view: "detailed"), class: "button is-link" %>
 </div>
 
 <% if @view_type == "list" %>
-  <%= render partial: "senses/sense_list" %>
+  <%= render partial: "senses/senselist" %>
 <% elsif @view_type == "detailed" %>
   <% @senses.each do |sense| %>
     <%= render partial: "senses/sense", locals: { sense: sense, monsters: sense.monsters } %>
