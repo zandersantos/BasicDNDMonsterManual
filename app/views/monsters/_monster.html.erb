@@ -28,7 +28,7 @@
 <h3 class="title is-4 mt-4 mb-3">Monster Actions</h3>
 <ul>
   <% monsteractions.each do |monster_action| %>
-    <li class="mb-4"><strong><%= monster_action.action.name %></strong>: <%= monster_action.description %></li>
+    <li class="mb-4"><strong><%= link_to monster_action.action.name, action_path(monster_action.action.id) %></strong>: <%= monster_action.description %></li>
   <% end %>
 </ul>
 <hr>
