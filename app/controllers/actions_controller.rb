@@ -4,7 +4,8 @@ class ActionsController < ApplicationController
                   .select("actions.*, COUNT(monster_actions.monster_id) AS monster_count")
                   .left_joins(:monster_actions, :monsters)
                   .group("actions.id")
-                  .order("name ASC")
+                  .order("name ASC").page(params[:page]).per(10)
+
     @view_type = params[:view] || "list"
   end
 

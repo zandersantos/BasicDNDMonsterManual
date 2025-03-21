@@ -21,7 +21,7 @@
     <h3 class="title is-3">Top 3 Most Used Senses</h3>
     <ol class="ml-5">
       <% @senses.each do |sense|%>
-        <li><%= link_to sense.sense_type, sense %> (<%= sense.monster_count%> Monsters)</li>
+        <li><%= link_to sense.sense_type.capitalize.titleize, sense %> (<%= sense.monster_count%> Monsters)</li>
       <% end %>
     </ol>
     <p class= "mt-4"><%= link_to "See the Entire List of Senses", senses_path%></p>
