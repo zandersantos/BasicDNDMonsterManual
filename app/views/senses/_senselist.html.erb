@@ -1,6 +1,6 @@
-<ul>
+<ul class="mt-4">
   <% @senses.each do |sense| %>
-    <li>
+    <li class="mt-4 is-size-5">
       <%= link_to sense.sense_type.capitalize, sense_path(sense) %>
       (<%= sense.monster_count || 0 %> monsters)
     </li>

@@ -7,6 +7,7 @@
 
 <% if @view_type == "list" %>
   <%= render partial: "actions/actionlist" %>
+  <%= paginate @actions %>
 <% elsif @view_type == "detailed" %>
   <% @actions.each do |action| %>
     <%= render partial: "actions/action", locals: { action: action, monsters: action.monsters } %>

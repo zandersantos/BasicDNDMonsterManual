@@ -3,7 +3,7 @@
     <h3 class="title is-3">Monsters</h3>
     <ol class="ml-5">
       <% @monsters.each do |monster|%>
-        <li><%= link_to monster.name, monster %></li>
+        <li class="is-size-5"><%= link_to monster.name, monster %></li>
       <% end %>
     </ol>
     <p class= "mt-4"><%= link_to "See the Entire List of Monsters", monsters_path%></p>
@@ -12,7 +12,7 @@
     <h3 class="title is-3">Top 10 Most Used Actions</h3>
     <ol class="ml-5">
       <% @actions.each do |action|%>
-        <li><%= link_to action.name, action %> (<%= action.monster_count%> Monsters)</li>
+        <li class="is-size-5"><%= link_to action.name, action %> (<%= action.monster_count%> Monsters)</li>
       <% end %>
     </ol>
     <p class= "mt-4"><%= link_to "See the Entire List of Actions", actions_path%></p>
@@ -21,7 +21,7 @@
     <h3 class="title is-3">Top 3 Most Used Senses</h3>
     <ol class="ml-5">
       <% @senses.each do |sense|%>
-        <li><%= link_to sense.sense_type.capitalize.titleize, sense %> (<%= sense.monster_count%> Monsters)</li>
+        <li class="is-size-5"><%= link_to sense.sense_type.capitalize.titleize, sense %> (<%= sense.monster_count%> Monsters)</li>
       <% end %>
     </ol>
     <p class= "mt-4"><%= link_to "See the Entire List of Senses", senses_path%></p>
