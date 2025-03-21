@@ -1,0 +1,34 @@
+<% if show_link %>
+  <h2 class="title is-2 mt-6"><%= link_to monster.name, monster%></h2>
+<% else %>
+  <h2 class="title is-2 mt-6"><%= monster.name%></h2>
+<%end%>
+
+
+<p><strong>Total Hit Points: </strong><%= monster.hitpoints%></p>
+
+<progress class="progress is-link mt-1" value="<%= monster.hitpoints %>" max="680">
+  <%= monster.hitpoints %> out of 680 Hit Points!
+</progress>
+
+<p class="mt-4"><strong>Armour Class: </strong><%= monster.armour_class%></p>
+<p class="mt-4"><strong>Hit Dice: </strong><%= monster.hit_dice%></p>
+<p class="mt-4"><strong>Associated Image: </strong></p>
+<img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4">
+
+<h3 class="title is-4 mt-4 mb-3">Monster Senses</h3>
+<ul>
+  <% monster.monster_senses.each do |monster_sense| %>
+    <li class="mb-4">
+      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
+    </li>
+  <% end %>
+</ul>
+
+<h3 class="title is-4 mt-4 mb-3">Monster Actions</h3>
+<ul>
+  <% monster.monster_actions.each do |monster_action| %>
+    <li class="mb-4"><strong><%= link_to monster_action.action.name, action_path(monster_action.action.id) %></strong>: <%= monster_action.description %></li>
+  <% end %>
+</ul>
+<hr>
