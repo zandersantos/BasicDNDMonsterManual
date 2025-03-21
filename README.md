@@ -5,7 +5,7 @@ This Project will be later refined, extended, and become a part of a larger proj
 
 Author: Zander Santos
 Dungeons and Dragons Monster Manual
-  -A user is able to search a monster and see the monsters abilities, actions, senses, and associated images.
+  -A user is able to search a monster, action or sense and see the monsters abilities, actions, senses, and associated images.
 
 APIS USED:
 - https://www.dnd5eapi.co/api/monsters
@@ -60,8 +60,21 @@ GET /monsters     => Display a list of monsters
 GET /monsters/:id => Display a single monster
 GET /senses       => Display a list of monster senses
 GET /senses/:id   => Display a single monster sense
+GET /actions       => Display a list of monster actions
+GET /actions/:id   => Display a single monster action
+GET /images       => Display a list of monster image
+GET /images/:id   => Display a single monster image
+GET /pages/:permalink  => Displays pages
+GET /search_all       => Display a search results page
+
 
 ## Controllers
 HomeController => index
 MonstersController => index, show
 SensesController => index, show
+ActionsController => index, show
+MonsterActionsController => index, show
+MonsterSensesController => index, show
+MonsterImagesController => index, show
+PagesController
+SearchController
