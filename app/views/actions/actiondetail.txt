@@ -1,0 +1,11 @@
+<h2 class="title is-2 mt-6"><%= link_to action.name, action_path(action) %></h2>
+
+<p><strong>Number of Monsters:</strong> <%= action.monster_count || 0 %></p>
+
+<h3 class="title is-4 mt-4 mb-3">Monsters with this Action:</h3>
+<ul>
+  <% monsters.each do |monster| %>
+    <li><%= link_to monster.name, monster_path(monster) %></li>
+  <% end %>
+</ul>
+<hr>

@@ -31,7 +31,7 @@
 <ul style="margin-left: 1.5rem; list-style: square;">
   <% monster.monster_senses.each do |monster_sense| %>
     <li class="mb-4" style="font-size: 1.1rem; color: #4a3426;">
-      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id), style: "color: #5a2d0c; text-decoration: none;" %></strong>:
+      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id), style: "color: #4067da; text-decoration: none;" %></strong>:
       <%= monster_sense.sense_range %>
     </li>
   <% end %>
@@ -41,7 +41,7 @@
 <ul style="margin-left: 1.5rem; list-style: square;">
   <% monster.monster_actions.each do |monster_action| %>
     <li class="mb-4" style="font-size: 1.1rem; color: #4a3426;">
-      <strong><%= link_to monster_action.action.name, action_path(monster_action.action.id), style: "color: #5a2d0c; text-decoration: none;" %></strong>:
+      <strong><%= link_to monster_action.action.name, action_path(monster_action.action.id), style: "color: #4067da; text-decoration: none;" %></strong>:
       <%= monster_action.description %>
     </li>
   <% end %>
