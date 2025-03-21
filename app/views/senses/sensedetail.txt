@@ -1,9 +1,15 @@
-<h2 class="title is-2 mt-6"><%= link_to sense.sense_type.capitalize.titleize, sense_path(sense) %></h2>
+<h2 class="title is-2 mt-6" style="color: #5a2d0c; text-shadow: 2px 2px #e6ccb2;">
+  <%= link_to sense.sense_type.capitalize.titleize, sense_path(sense), style: "text-decoration: none;" %>
+</h2>
 
-<h3 class="title is-4 mt-4 mb-3">Monsters with this Sense:</h3>
-<ul>
+<h3 class="title is-4 mt-4 mb-3" style="color: #5a2d0c; text-shadow: 1px 1px #e6ccb2;">
+  Monsters with this Sense:
+</h3>
+<ul style="margin-left: 1.5rem; list-style: square;">
   <% monsters.each do |monster| %>
-    <li><%= link_to monster.name, monster_path(monster) %></li>
+    <li class="mb-4" style="font-size: 1.1rem; color: #4a3426;">
+      <strong><%= link_to monster.name, monster_path(monster), style: "color: #4067da; text-decoration: none;" %></strong>
+    </li>
   <% end %>
 </ul>
-<hr>
+<hr style="border-top: 2px solid #5a2d0c;">

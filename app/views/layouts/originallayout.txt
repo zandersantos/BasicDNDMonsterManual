@@ -11,32 +11,54 @@
 
     <%= yield :head %>
 
-    <%# Enable PWA manifest for installable apps (make sure to enable in config/routes.rb too!) %>
-    <%#= tag.link rel: "manifest", href: pwa_manifest_path(format: :json) %>
-
     <link rel="icon" href="/icon.png" type="image/png">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
-    <%# Includes all stylesheet files in app/assets/stylesheets %>
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
   </head>
 
-  <body style="background-color: #fdf6e3">
-    <section class="section">
+  <body style="background-color: #fbf1da; font-family: 'IM Fell English', serif; color: #4a3426;">
+    <section class="section" style="background-image: url('/path/to/your/fantasy-background.jpg'); background-size: cover; background-repeat: no-repeat; min-height: 100vh;">
       <div class="container">
-      <h1 class = "title is-3"> <%= link_to "Dungeons and Dragons Monster Manual", root_path %></h1>
 
-      <div class="search-bar mb-5">
-        <%= form_with url: search_all_path, method: :get, local: true do |form| %>
-          <%= form.text_field :query, placeholder: "Search for monsters, senses, or actions...", class: "input" %>
-          <%= form.submit "Search", class: "button is-primary ml-2 mt-2" %>
-        <% end %>
-      </div>
-        <%= yield %>
-        <%= render partial: "common/footer" %>
+        <!-- Page Title -->
+        <h1 class="title is-2 has-text-weight-bold" style="color: #5a2d0c; text-shadow: 2px 2px #e6ccb2;">
+          <%= link_to "Dungeons and Dragons Monster Manual", root_path, style: "text-decoration: none;" %>
+        </h1>
+
+        <!-- Search Bar -->
+        <div class="search-bar mb-5" style="border: 2px solid #5a2d0c; border-radius: 8px; padding: 1rem; background-color: #faf3e8;">
+          <%= form_with url: search_all_path, method: :get, local: true do |form| %>
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <%= form.text_field :query, placeholder: "Search for monsters, senses, or actions...", class: "input", style: "border: 1px solid #5a2d0c;" %>
+              </div>
+              <div class="control">
+                <%= form.submit "Search", class: "button is-primary", style: "background-color: #d8bd6c; border: none;" %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content" style="background: rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 2rem; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+          <%= yield %>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer has-background-light" style="margin-top: 2rem; border-top: 2px solid #5a2d0c; padding-top: 1rem;">
+          <div class="content has-text-centered">
+            <ul class="is-size-5" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 1.5rem;">
+              <li><%= link_to "Home", root_path, style: "color: #5a2d0c; text-decoration: none;" %></li>
+              <li><%= link_to "All Monsters", monsters_path, style: "color: #5a2d0c; text-decoration: none;" %></li>
+              <li><%= link_to "All Actions", actions_path, style: "color: #5a2d0c; text-decoration: none;" %></li>
+              <li><%= link_to "All Senses", senses_path, style: "color: #5a2d0c; text-decoration: none;" %></li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </section>
   </body>

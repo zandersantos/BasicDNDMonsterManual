@@ -1,49 +1,34 @@
 <% if show_link %>
-  <h2 class="title is-2 mt-6" style="color: #5a2d0c; text-shadow: 2px 2px #e6ccb2;">
-    <%= link_to monster.name, monster, style: "text-decoration: none;" %>
-  </h2>
+  <h2 class="title is-2 mt-6"><%= link_to monster.name, monster%></h2>
 <% else %>
-  <h2 class="title is-2 mt-6" style="color: #5a2d0c; text-shadow: 2px 2px #e6ccb2;">
-    <%= monster.name %>
-  </h2>
-<% end %>
+  <h2 class="title is-2 mt-6"><%= monster.name%></h2>
+<%end%>
 
-<p style="font-size: 1.25rem; font-weight: bold; color: #4a3426;">
-  Total Hit Points: <span style="color: #d9534f;"><%= monster.hitpoints %></span>
-</p>
 
-<progress class="progress is-link mt-1" value="<%= monster.hitpoints %>" max="680" style="height: 20px; background-color: #f7d9b4; border-radius: 10px;"></progress>
-<p class="is-size-6" style="color: #4a3426;"><%= monster.hitpoints %> out of 680 Hit Points!</p>
+<p><strong>Total Hit Points: </strong><%= monster.hitpoints%></p>
 
-<p class="mt-4" style="font-size: 1.25rem; font-weight: bold; color: #4a3426;">
-  Armour Class: <%= monster.armour_class %>
-</p>
-<p class="mt-4" style="font-size: 1.25rem; font-weight: bold; color: #4a3426;">
-  Hit Dice: <%= monster.hit_dice %>
-</p>
+<progress class="progress is-link mt-1" value="<%= monster.hitpoints %>" max="680">
+  <%= monster.hitpoints %> out of 680 Hit Points!
+</progress>
 
-<p class="mt-4" style="font-size: 1.25rem; font-weight: bold; color: #4a3426;">
-  Associated Image:
-</p>
-<img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4" style="max-width: 100%; border: 2px solid #5a2d0c; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+<p class="mt-4"><strong>Armour Class: </strong><%= monster.armour_class%></p>
+<p class="mt-4"><strong>Hit Dice: </strong><%= monster.hit_dice%></p>
+<p class="mt-4"><strong>Associated Image: </strong></p>
+<img src="<%= monster.img_url %>" alt="<%= monster.name %> Image" class="mt-4">
 
-<h3 class="title is-4 mt-4 mb-3" style="color: #5a2d0c; text-shadow: 1px 1px #e6ccb2;">Monster Senses</h3>
-<ul style="margin-left: 1.5rem; list-style: square;">
+<h3 class="title is-4 mt-4 mb-3">Monster Senses</h3>
+<ul>
   <% monster.monster_senses.each do |monster_sense| %>
-    <li class="mb-4" style="font-size: 1.1rem; color: #4a3426;">
-      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id), style: "color: #4067da; text-decoration: none;" %></strong>:
-      <%= monster_sense.sense_range %>
+    <li class="mb-4">
+      <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
     </li>
   <% end %>
 </ul>
 
-<h3 class="title is-4 mt-4 mb-3" style="color: #5a2d0c; text-shadow: 1px 1px #e6ccb2;">Monster Actions</h3>
-<ul style="margin-left: 1.5rem; list-style: square;">
+<h3 class="title is-4 mt-4 mb-3">Monster Actions</h3>
+<ul>
   <% monster.monster_actions.each do |monster_action| %>
-    <li class="mb-4" style="font-size: 1.1rem; color: #4a3426;">
-      <strong><%= link_to monster_action.action.name, action_path(monster_action.action.id), style: "color: #4067da; text-decoration: none;" %></strong>:
-      <%= monster_action.description %>
-    </li>
+    <li class="mb-4"><strong><%= link_to monster_action.action.name, action_path(monster_action.action.id) %></strong>: <%= monster_action.description %></li>
   <% end %>
 </ul>
-<hr style="border-top: 2px solid #5a2d0c;">
+<hr>
