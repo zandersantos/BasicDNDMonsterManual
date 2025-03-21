@@ -1,0 +1,9 @@
+<h2 class="title is-2 mt-6"><%= link_to sense.sense_type.capitalize.titleize, sense_path(sense) %></h2>
+
+<h3 class="title is-4 mt-4 mb-3">Monsters with this Sense:</h3>
+<ul>
+  <% monsters.each do |monster| %>
+    <li><%= link_to monster.name, monster_path(monster) %></li>
+  <% end %>
+</ul>
+<hr>
