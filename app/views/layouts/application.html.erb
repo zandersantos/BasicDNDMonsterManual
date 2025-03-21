@@ -27,7 +27,15 @@
   <body>
     <section class="section">
       <div class="container">
-      <h1 class = "title is-3"<%= link_to "Dungeons and Dragons Monster Manual", root_path %></h1>
+      <h1 class = "title is-3"> <%= link_to "Dungeons and Dragons Monster Manual", root_path %></h1>
+
+      <div class="search-bar mb-5">
+        <%= form_with url: search_all_path, method: :get, local: true do |form| %>
+          <%= form.text_field :query, placeholder: "Search for monsters, senses, or actions...", class: "input" %>
+          <%= form.submit "Search", class: "button is-primary ml-2" %>
+        <% end %>
+      </div>
+
         <%= yield %>
         <%= render partial: "common/footer" %>
       </div>

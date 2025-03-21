@@ -1,4 +1,4 @@
-<h2 class="title is-2 mt-6"><%= action.name %></h2>
+<h2 class="title is-2 mt-6"><%= link_to action.name, action_path(action) %></h2>
 
 <p><strong>Number of Monsters:</strong> <%= action.monster_count || 0 %></p>
 

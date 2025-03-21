@@ -8,4 +8,9 @@ class ApplicationController < ActionController::Base
     Page.all
   end
 
+  def search
+    @query = params[:query]
+    @results = Page.where("title LIKE ? OR content LIKE ?", "%#{@query}%", "%#{@query}%")
+  end
+
 end

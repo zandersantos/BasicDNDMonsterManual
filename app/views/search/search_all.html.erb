@@ -1,0 +1,38 @@
+<h2>Search Results for "<%= @query %>"</h2>
+
+<% if @monsters.any? || @senses.any? || @actions.any? %>
+  <h3>Monsters</h3>
+  <% if @monsters.any? %>
+    <ul>
+      <% @monsters.each do |monster| %>
+        <li><%= link_to monster.name, monster_path(monster) %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No monsters found.</p>
+  <% end %>
+
+  <h3>Senses</h3>
+  <% if @senses.any? %>
+    <ul>
+      <% @senses.each do |sense| %>
+        <li><%= link_to sense.sense_type.capitalize.titleize, sense_path(sense) %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No senses found.</p>
+  <% end %>
+
+  <h3>Actions</h3>
+  <% if @actions.any? %>
+    <ul>
+      <% @actions.each do |action| %>
+        <li><%= link_to action.name, action_path(action) %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No actions found.</p>
+  <% end %>
+<% else %>
+  <p>No results found for "<%= @query %>".</p>
+<% end %>
