@@ -18,7 +18,7 @@
 
 <h3 class="title is-4 mt-4 mb-3">Monster Senses</h3>
 <ul>
-  <% monstersenses.each do |monster_sense| %>
+  <% monster.monster_senses.each do |monster_sense| %>
     <li class="mb-4">
       <strong><%= link_to monster_sense.sense.sense_type.capitalize.titleize, sense_path(monster_sense.sense_id) %></strong>: <%= monster_sense.sense_range %>
     </li>
@@ -27,7 +27,7 @@
 
 <h3 class="title is-4 mt-4 mb-3">Monster Actions</h3>
 <ul>
-  <% monsteractions.each do |monster_action| %>
+  <% monster.monster_actions.each do |monster_action| %>
     <li class="mb-4"><strong><%= link_to monster_action.action.name, action_path(monster_action.action.id) %></strong>: <%= monster_action.description %></li>
   <% end %>
 </ul>

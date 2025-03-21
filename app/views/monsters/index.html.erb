@@ -1,14 +1,12 @@
 <div class="navigation">
-  <%= link_to "List View", monsters_path(view: "list"), class: "button is-primary"%>
-  <%= link_to "Detailed View", monsters_path(view: "detailed"), class: "button is-link"%>
+  <%= link_to "List View", monsters_path(view: "list"), class: "button is-primary" %>
+  <%= link_to "Detailed View", monsters_path(view: "detailed"), class: "button is-link" %>
 </div>
 
 <% if @view_type == "list" %>
   <%= render partial: "monsters/monster_list" %>
   <%= paginate @monsters %>
 <% elsif @view_type == "detailed" %>
-  <% @monsters.each do |monster| %>
-    <%= render partial: "monsters/monster", collection: @monsters, locals: { show_link:true, monster: monster, monsteractions: monster.monster_actions, monstersenses: monster.monster_senses } %>
-  <% end %>
+  <%= render partial: "monsters/monster", collection: @monsters, locals: { show_link: true } %>
   <%= paginate @monsters %>
 <% end %>
