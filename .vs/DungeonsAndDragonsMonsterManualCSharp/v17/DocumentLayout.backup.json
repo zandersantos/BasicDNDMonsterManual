@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\controllers\\monsterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\controllers\\monsterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\monsters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\monsters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\monsters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\monsters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\monster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\monster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\models\\topactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\models\\topactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\shared\\noresultsfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\shared\\noresultsfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\data\\dungeonsanddragonsmonstermanualcsharpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\data\\dungeonsanddragonsmonstermanualcsharpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\selfhelp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\selfhelp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\monstersearchsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\monstersearchsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\monstersearch.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\monstersearch.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 41,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 398,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonstersController.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs*",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:35:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml*",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T00:37:35.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:37:16.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T00:37:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T00:37:29.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T23:55:32.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T23:52:25.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:17:09.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:38:56.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:06:51.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TopActionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T00:06:46.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoResultsFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T23:52:41.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T23:52:39.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T23:51:30.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DungeonsAndDragonsMonsterManualCSharpContext.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:56:52.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SelfHelp.txt",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-03T22:43:49.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MonsterSearchSteps.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:23:41.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MonsterSearch.feature",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-26T02:47:53.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeleniumTest.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:29:59.106Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

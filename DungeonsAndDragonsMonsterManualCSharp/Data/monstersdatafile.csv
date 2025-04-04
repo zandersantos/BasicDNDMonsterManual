@@ -1,0 +1,335 @@
+name,armor_class,hit_points,hit_dice,image_url
+Aboleth,17,135,18d10,https://www.dnd5eapi.co/api/2014/images/monsters/aboleth.png
+Acolyte,10,9,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/acolyte.png
+Adult Black Dragon,19,195,17d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-black-dragon.png
+Adult Blue Dragon,19,225,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-blue-dragon.png
+Adult Brass Dragon,18,172,15d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-brass-dragon.png
+Adult Bronze Dragon,19,212,17d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-bronze-dragon.png
+Adult Copper Dragon,18,184,16d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-copper-dragon.png
+Adult Gold Dragon,19,256,19d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-gold-dragon.png
+Adult Green Dragon,19,207,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-green-dragon.png
+Adult Red Dragon,19,256,19d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-red-dragon.png
+Adult Silver Dragon,19,243,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-silver-dragon.png
+Adult White Dragon,18,200,16d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-white-dragon.png
+Air Elemental,15,90,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/air-elemental.png
+Ancient Black Dragon,22,367,21d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-black-dragon.png
+Ancient Blue Dragon,22,481,26d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-blue-dragon.png
+Ancient Brass Dragon,20,297,17d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-brass-dragon.png
+Ancient Bronze Dragon,22,444,24d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-bronze-dragon.png
+Ancient Copper Dragon,21,350,20d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-copper-dragon.png
+Ancient Gold Dragon,22,546,28d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-gold-dragon.png
+Ancient Green Dragon,21,385,22d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-green-dragon.png
+Ancient Red Dragon,22,546,28d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-red-dragon.png
+Ancient Silver Dragon,22,487,25d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-silver-dragon.png
+Ancient White Dragon,20,333,18d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-white-dragon.png
+Androsphinx,17,199,19d10,https://www.dnd5eapi.co/api/2014/images/monsters/androsphinx.png
+Animated Armor,18,33,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/animated-armor.png
+Ankheg,14,39,6d10,https://www.dnd5eapi.co/api/2014/images/monsters/ankheg.png
+Ape,12,19,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/ape.png
+Archmage,12,99,18d8,https://www.dnd5eapi.co/api/2014/images/monsters/archmage.png
+Assassin,15,78,12d8,https://www.dnd5eapi.co/api/2014/images/monsters/assassin.png
+Awakened Shrub,9,10,3d6,https://www.dnd5eapi.co/api/2014/images/monsters/awakened-shrub.png
+Awakened Tree,13,59,7d12,https://www.dnd5eapi.co/api/2014/images/monsters/awakened-tree.png
+Axe Beak,11,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/axe-beak.png
+Azer,15,39,6d8,https://www.dnd5eapi.co
+Baboon,12,3,1d6,https://www.dnd5eapi.co/api/2014/images/monsters/baboon.png
+Badger,10,3,1d4,https://www.dnd5eapi.co/api/2014/images/monsters/badger.png
+Balor,19,262,21d12,https://www.dnd5eapi.co/api/2014/images/monsters/balor.png
+Bandit,12,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/bandit.png
+Bandit Captain,15,65,10d8,https://www.dnd5eapi.co/api/2014/images/monsters/bandit-captain.png
+Barbed Devil,15,110,13d8,https://www.dnd5eapi.co/api/2014/images/monsters/barbed-devil.png
+Basilisk,12,52,8d8,https://www.dnd5eapi.co
+Bat,12,1,1d4,https://www.dnd5eapi.co
+Bearded Devil,13,52,8d8,https://www.dnd5eapi.co
+Behir,17,168,16d12,https://www.dnd5eapi.co
+Berserker,13,67,9d8,https://www.dnd5eapi.co
+Black Bear,11,19,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/black-bear.png
+Black Dragon Wyrmling,17,33,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/black-dragon-wyrmling.png
+Black Pudding,7,85,10d10,https://www.dnd5eapi.co/api/2014/images/monsters/black-pudding.png
+Blink Dog,13,22,4d8,https://www.dnd5eapi.co/api/2014/images/monsters/blink-dog.png
+Blood Hawk,12,7,2d6,https://www.dnd5eapi.co/api/2014/images/monsters/blood-hawk.png
+Blue Dragon Wyrmling,17,52,8d8,https://www.dnd5eapi.co/api/2014/images/monsters/blue-dragon-wyrmling.png
+Boar,11,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/boar.png
+Bone Devil,19,142,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/bone-devil.png
+Brass Dragon Wyrmling,16,16,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/brass-dragon-wyrmling.png
+Bronze Dragon Wyrmling,17,32,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/bronze-dragon-wyrmling.png
+Brown Bear,11,34,4d10,https://www.dnd5eapi.co/api/2014/images/monsters/brown-bear.png
+Bugbear,16,27,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/bugbear.png
+Bulette,17,94,9d10,https://www.dnd5eapi.co
+Camel,9,15,2d10,https://www.dnd5eapi.co/api/2014/images/monsters/camel.png
+Cat,12,2,1d4,https://www.dnd5eapi.co
+Centaur,12,45,6d10,https://www.dnd5eapi.co
+Chain Devil,16,85,10d8,https://www.dnd5eapi.co/api/2014/images/monsters/chain-devil.png
+Chimera,14,114,12d10,https://www.dnd5eapi.co
+Chuul,16,93,11d10,https://www.dnd5eapi.co
+Clay Golem,14,133,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/clay-golem.png
+Cloaker,14,78,12d10,https://www.dnd5eapi.co
+Cloud Giant,14,200,16d12,https://www.dnd5eapi.co
+Cockatrice,11,27,6d6,https://www.dnd5eapi.co/api/2014/images/monsters/cockatrice.png
+Commoner,10,4,1d8,https://www.dnd5eapi.co/api/2014/images/monsters/commoner.png
+Constrictor Snake,12,13,2d10,https://www.dnd5eapi.co/api/2014/images/monsters/constrictor-snake.png
+Copper Dragon Wyrmling,16,22,4d8,https://www.dnd5eapi.co
+Couatl,19,97,13d8,https://www.dnd5eapi.co
+Crab,11,2,1d4,https://www.dnd5eapi.co
+Crocodile,12,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/crocodile.png
+Cult Fanatic,13,22,6d8,https://www.dnd5eapi.co
+Cultist,12,9,2d8,https://www.dnd5eapi.co
+Darkmantle,11,22,5d6,https://www.dnd5eapi.co
+Death Dog,12,39,6d8,https://www.dnd5eapi.co
+Deep Gnome (Svirfneblin),15,16,3d6,https://www.dnd5eapi.co
+Deer,13,4,1d8,https://www.dnd5eapi.co
+Deva,17,136,16d8,https://www.dnd5eapi.co
+Dire Wolf,14,37,5d10,https://www.dnd5eapi.co
+Djinni,17,161,14d10,https://www.dnd5eapi.co
+Doppelganger,14,52,8d8,https://www.dnd5eapi.co
+Draft Horse,10,19,3d10,https://www.dnd5eapi.co
+Dragon Turtle,20,341,22d20,https://www.dnd5eapi.co
+Dretch,11,18,4d6,https://www.dnd5eapi.co
+Drider,19,123,13d10,https://www.dnd5eapi.co
+Drow,15,13,3d8,https://www.dnd5eapi.co
+Druid,11,27,5d8,https://www.dnd5eapi.co
+Dryad,11,22,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/dryad.png
+Duergar,16,26,4d8,https://www.dnd5eapi.co
+Dust Mephit,12,17,5d6,https://www.dnd5eapi.co
+Eagle,12,3,1d6,https://www.dnd5eapi.co
+Earth Elemental,17,126,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/earth-elemental.png
+Efreeti,17,200,16d10,https://www.dnd5eapi.co
+Elephant,12,76,8d12,https://www.dnd5eapi.co
+Elk,10,13,2d10,https://www.dnd5eapi.co
+Erinyes,18,153,18d8,https://www.dnd5eapi.co
+Ettercap,13,44,8d8,https://www.dnd5eapi.co
+Ettin,12,85,10d10,https://www.dnd5eapi.co
+Fire Elemental,13,102,12d10,https://www.dnd5eapi.co
+Fire Giant,18,162,13d12,https://www.dnd5eapi.co
+Flesh Golem,9,93,11d8,https://www.dnd5eapi.co
+Flying Snake,14,5,2d4,https://www.dnd5eapi.co
+Flying Sword,17,17,5d6,https://www.dnd5eapi.co
+Frog,11,1,1d4,https://www.dnd5eapi.co
+Frost Giant,15,138,12d12,https://www.dnd5eapi.co
+Gargoyle,15,52,7d8,https://www.dnd5eapi.co
+Gelatinous Cube,6,84,8d10,https://www.dnd5eapi.co
+Ghast,13,36,8d8,https://www.dnd5eapi.co
+Ghost,11,45,10d8,https://www.dnd5eapi.co
+Ghoul,12,22,5d8,https://www.dnd5eapi.co
+Giant Ape,12,157,15d12,https://www.dnd5eapi.co
+Giant Badger,10,13,2d8,https://www.dnd5eapi.co
+Giant Bat,13,22,4d10,https://www.dnd5eapi.co
+Giant Boar,12,42,5d10,https://www.dnd5eapi.co
+Giant Centipede,13,4,1d6,https://www.dnd5eapi.co
+Giant Constrictor Snake,12,60,8d12,https://www.dnd5eapi.co
+Giant Crab,15,13,3d8,https://www.dnd5eapi.co
+Giant Crocodile,14,85,9d12,https://www.dnd5eapi.co
+Giant Eagle,13,26,4d10,https://www.dnd5eapi.co
+Giant Elk,14,42,5d12,https://www.dnd5eapi.co
+Giant Fire Beetle,13,4,1d6,https://www.dnd5eapi.co
+Giant Frog,11,18,4d8,https://www.dnd5eapi.co
+Giant Goat,11,19,3d10,https://www.dnd5eapi.co
+Giant Hyena,12,45,6d10,https://www.dnd5eapi.co
+Giant Lizard,12,19,3d10,https://www.dnd5eapi.co
+Giant Octopus,11,52,8d10,https://www.dnd5eapi.co
+Giant Owl,12,19,3d10,https://www.dnd5eapi.co
+Giant Poisonous Snake,14,11,2d8,https://www.dnd5eapi.co
+Giant Rat,12,7,2d6,https://www.dnd5eapi.co
+Giant Rat (Diseased),12,7,2d6,https://www.dnd5eapi.co
+Giant Scorpion,15,52,7d10,https://www.dnd5eapi.co
+Giant Sea Horse,13,16,3d10,https://www.dnd5eapi.co
+Giant Shark,13,126,11d12,https://www.dnd5eapi.co
+Giant Spider,14,26,4d10,https://www.dnd5eapi.co
+Giant Toad,11,39,6d10,https://www.dnd5eapi.co
+Giant Vulture,10,22,3d10,https://www.dnd5eapi.co
+Giant Wasp,12,13,3d8,https://www.dnd5eapi.co
+Giant Weasel,13,9,2d8,https://www.dnd5eapi.co
+Giant Wolf Spider,13,11,2d8,https://www.dnd5eapi.co
+Gibbering Mouther,9,67,9d8,https://www.dnd5eapi.co
+Glabrezu,17,157,15d10,https://www.dnd5eapi.co
+Gladiator,16,112,15d8,https://www.dnd5eapi.co
+Gnoll,15,22,5d8,https://www.dnd5eapi.co
+Goat,10,4,1d8,https://www.dnd5eapi.co
+Goblin,15,7,2d6,https://www.dnd5eapi.co/api/2014/images/monsters/goblin.png
+Gold Dragon Wyrmling,17,60,8d8,https://www.dnd5eapi.co
+Gorgon,19,114,12d10,https://www.dnd5eapi.co
+Gray Ooze,8,22,3d8,https://www.dnd5eapi.co
+Green Dragon Wyrmling,17,38,7d8,https://www.dnd5eapi.co
+Green Hag,17,82,11d8,https://www.dnd5eapi.co
+Grick,14,27,6d8,https://www.dnd5eapi.co
+Griffon,12,59,7d10,https://www.dnd5eapi.co
+Grimlock,11,11,2d8,https://www.dnd5eapi.co
+Guard,16,11,2d8,https://www.dnd5eapi.co
+Guardian Naga,18,127,15d10,https://www.dnd5eapi.co
+Gynosphinx,17,136,16d10,https://www.dnd5eapi.co
+Half-Red Dragon Veteran,18,65,10d8,https://www.dnd5eapi.co
+Harpy,11,38,7d8,https://www.dnd5eapi.co
+Hawk,13,1,1d4,https://www.dnd5eapi.co
+Hell Hound,15,45,7d8,https://www.dnd5eapi.co
+Hezrou,16,136,13d10,https://www.dnd5eapi.co
+Hill Giant,13,105,10d12,https://www.dnd5eapi.co
+Hippogriff,11,19,3d10,https://www.dnd5eapi.co
+Hobgoblin,18,11,2d8,https://www.dnd5eapi.co
+Homunculus,13,5,2d4,https://www.dnd5eapi.co
+Horned Devil,18,178,17d10,https://www.dnd5eapi.co
+Hunter Shark,12,45,6d10,https://www.dnd5eapi.co
+Hydra,15,172,15d12,https://www.dnd5eapi.co
+Hyena,11,5,1d8,https://www.dnd5eapi.co
+Ice Devil,18,180,19d10,https://www.dnd5eapi.co
+Ice Mephit,11,21,6d6,https://www.dnd5eapi.co
+Imp,13,10,3d4,https://www.dnd5eapi.co
+Invisible Stalker,14,104,16d8,https://www.dnd5eapi.co
+Iron Golem,20,210,20d10,https://www.dnd5eapi.co
+Jackal,12,3,1d6,https://www.dnd5eapi.co
+Killer Whale,12,90,12d12,https://www.dnd5eapi.co
+Knight,18,52,8d8,https://www.dnd5eapi.co
+Kobold,12,5,2d6,https://www.dnd5eapi.co
+Kraken,18,472,27d20,https://www.dnd5eapi.co
+Lamia,13,97,13d10,https://www.dnd5eapi.co
+Lemure,7,13,3d8,https://www.dnd5eapi.co
+Lich,17,135,18d8,https://www.dnd5eapi.co
+Lion,12,26,4d10,https://www.dnd5eapi.co
+Lizard,10,2,1d4,https://www.dnd5eapi.co
+Lizardfolk,13,22,4d8,https://www.dnd5eapi.co
+Mage,12,40,9d8,https://www.dnd5eapi.co
+Magma Mephit,11,22,5d6,https://www.dnd5eapi.co
+Magmin,14,9,2d6,https://www.dnd5eapi.co
+Mammoth,13,126,11d12,https://www.dnd5eapi.co
+Manticore,14,68,8d10,https://www.dnd5eapi.co
+Marilith,18,189,18d10,https://www.dnd5eapi.co
+Mastiff,12,5,1d8,https://www.dnd5eapi.co
+Medusa,15,127,17d8,https://www.dnd5eapi.co
+Merfolk,11,11,2d8,https://www.dnd5eapi.co
+Merrow,13,45,6d10,https://www.dnd5eapi.co
+Mimic,12,58,9d8,https://www.dnd5eapi.co/api/2014/images/monsters/mimic.png
+Minotaur,14,76,9d10,https://www.dnd5eapi.co
+Minotaur Skeleton,12,67,9d10,https://www.dnd5eapi.co
+Mule,10,11,2d8,https://www.dnd5eapi.co
+Mummy,11,58,9d8,https://www.dnd5eapi.co
+Mummy Lord,17,97,13d8,https://www.dnd5eapi.co
+Nalfeshnee,18,184,16d10,https://www.dnd5eapi.co
+Night Hag,17,112,15d8,https://www.dnd5eapi.co
+Nightmare,13,68,8d10,https://www.dnd5eapi.co
+Noble,15,9,2d8,https://www.dnd5eapi.co
+Ochre Jelly,8,45,6d10,https://www.dnd5eapi.co
+Octopus,12,3,1d6,https://www.dnd5eapi.co
+Ogre,11,59,7d10,https://www.dnd5eapi.co
+Ogre Zombie,8,85,9d10,https://www.dnd5eapi.co
+Oni,16,110,13d10,https://www.dnd5eapi.co
+Orc,13,15,2d8,https://www.dnd5eapi.co
+Otyugh,14,114,12d10,https://www.dnd5eapi.co
+Owl,11,1,1d4,https://www.dnd5eapi.co
+Owlbear,13,59,7d10,https://www.dnd5eapi.co
+Panther,12,13,3d8,https://www.dnd5eapi.co
+Pegasus,12,59,7d10,https://www.dnd5eapi.co
+Phase Spider,13,32,5d10,https://www.dnd5eapi.co
+Pit Fiend,19,300,24d10,https://www.dnd5eapi.co
+Planetar,19,200,16d10,https://www.dnd5eapi.co
+Plesiosaurus,13,68,8d10,https://www.dnd5eapi.co
+Poisonous Snake,13,2,1d4,https://www.dnd5eapi.co
+Polar Bear,12,42,5d10,https://www.dnd5eapi.co
+Pony,10,11,2d8,https://www.dnd5eapi.co
+Priest,13,27,5d8,https://www.dnd5eapi.co
+Pseudodragon,13,7,2d4,https://www.dnd5eapi.co
+Purple Worm,18,247,15d20,https://www.dnd5eapi.co
+Quasit,13,7,3d4,https://www.dnd5eapi.co
+Quipper,13,1,1d4,https://www.dnd5eapi.co
+Rakshasa,16,110,13d8,https://www.dnd5eapi.co
+Rat,10,1,1d4,https://www.dnd5eapi.co
+Raven,12,1,1d4,https://www.dnd5eapi.co
+Red Dragon Wyrmling,17,75,10d8,https://www.dnd5eapi.co
+Reef Shark,12,22,4d8,https://www.dnd5eapi.co
+Remorhaz,17,195,17d12,https://www.dnd5eapi.co
+Rhinoceros,11,45,6d10,https://www.dnd5eapi.co
+Riding Horse,10,13,2d10,https://www.dnd5eapi.co
+Roc,15,248,16d20,https://www.dnd5eapi.co
+Roper,20,93,11d10,https://www.dnd5eapi.co
+Rug of Smothering,12,33,6d10,https://www.dnd5eapi.co
+Rust Monster,14,27,5d8,https://www.dnd5eapi.co
+Saber-Toothed Tiger,12,52,7d10,https://www.dnd5eapi.co
+Sahuagin,12,22,4d8,https://www.dnd5eapi.co
+Salamander,15,90,12d10,https://www.dnd5eapi.co
+Satyr,14,31,7d8,https://www.dnd5eapi.co
+Scorpion,11,1,1d4,https://www.dnd5eapi.co
+Scout,13,16,3d8,https://www.dnd5eapi.co
+Sea Hag,14,52,7d8,https://www.dnd5eapi.co
+Sea Horse,11,1,1d4,https://www.dnd5eapi.co
+Shadow,12,16,3d8,https://www.dnd5eapi.co
+Shambling Mound,15,136,16d10,https://www.dnd5eapi.co
+Shield Guardian,17,142,15d10,https://www.dnd5eapi.co
+Shrieker,5,13,3d8,https://www.dnd5eapi.co
+Silver Dragon Wyrmling,17,45,6d8,https://www.dnd5eapi.co
+Skeleton,13,13,2d8,https://www.dnd5eapi.co
+Solar,21,243,18d10,https://www.dnd5eapi.co
+Specter,12,22,5d8,https://www.dnd5eapi.co
+Spider,12,1,1d4,https://www.dnd5eapi.co
+Spirit Naga,15,75,10d10,https://www.dnd5eapi.co
+Sprite,15,2,1d4,https://www.dnd5eapi.co
+Spy,12,27,6d8,https://www.dnd5eapi.co
+Steam Mephit,10,21,6d6,https://www.dnd5eapi.co
+Stirge,14,2,1d4,https://www.dnd5eapi.co
+Stone Giant,17,126,11d12,https://www.dnd5eapi.co
+Stone Golem,17,178,17d10,https://www.dnd5eapi.co
+Storm Giant,16,230,20d12,https://www.dnd5eapi.co
+Succubus/Incubus,15,66,12d8,https://www.dnd5eapi.co
+Swarm of Bats,12,22,5d8,https://www.dnd5eapi.co
+Swarm of Beetles,12,22,5d8,https://www.dnd5eapi.co
+Swarm of Centipedes,12,22,5d8,https://www.dnd5eapi.co
+Swarm of Insects,12,22,5d8,https://www.dnd5eapi.co
+Swarm of Poisonous Snakes,14,36,8d8,https://www.dnd5eapi.co
+Swarm of Quippers,13,28,8d8,https://www.dnd5eapi.co
+Swarm of Rats,10,24,7d8,https://www.dnd5eapi.co
+Swarm of Ravens,12,24,7d8,https://www.dnd5eapi.co
+Swarm of Spiders,12,22,5d8,https://www.dnd5eapi.co
+Swarm of Wasps,12,22,5d8,https://www.dnd5eapi.co
+Tarrasque,25,676,33d20,https://www.dnd5eapi.co
+Thug,11,32,5d8,https://www.dnd5eapi.co
+Tiger,12,37,5d10,https://www.dnd5eapi.co
+Treant,16,138,12d12,https://www.dnd5eapi.co
+Tribal Warrior,12,11,2d8,https://www.dnd5eapi.co
+Triceratops,13,95,10d12,https://www.dnd5eapi.co
+Troll,15,84,8d10,https://www.dnd5eapi.co
+Tyrannosaurus Rex,13,136,13d12,https://www.dnd5eapi.co
+Unicorn,12,67,9d10,https://www.dnd5eapi.co
+"Vampire - Vampire Form",16,144,17d8,https://www.dnd5eapi.co
+"Vampire - Bat Form",16,144,17d8,https://www.dnd5eapi.co
+"Vampire - Mist Form",16,144,17d8,https://www.dnd5eapi.co
+Vampire Spawn,15,82,11d8,https://www.dnd5eapi.co
+Veteran,17,58,9d8,https://www.dnd5eapi.co
+Violet Fungus,5,18,4d8,https://www.dnd5eapi.co
+Vrock,15,104,11d10,https://www.dnd5eapi.co
+Vulture,10,5,1d8,https://www.dnd5eapi.co
+Warhorse,11,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/warhorse.png
+Warhorse Skeleton,13,22,3d10,https://www.dnd5eapi.co
+Water Elemental,14,114,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/water-elemental.png
+Weasel,13,1,1d4,https://www.dnd5eapi.co/api/2014/images/monsters/weasel.png
+"Werebear - Bear Form",11,135,18d8,https://www.dnd5eapi.co
+"Werebear - Human Form",10,135,18d8,https://www.dnd5eapi.co
+"Werebear - Hybrid Form",11,135,18d8,https://www.dnd5eapi.co
+"Wereboar - Boar Form",11,78,12d8,https://www.dnd5eapi.co
+"Wereboar - Human Form",10,78,12d8,https://www.dnd5eapi.co
+"Wereboar - Hybrid Form",11,78,12d8,https://www.dnd5eapi.co
+"Wererat - Human Form",12,33,6d8,https://www.dnd5eapi.co
+"Wererat - Hybrid Form",12,33,6d8,https://www.dnd5eapi.co
+"Wererat - Rat Form",12,33,6d8,https://www.dnd5eapi.co
+"Weretiger - Human Form",12,120,16d8,https://www.dnd5eapi.co
+"Weretiger - Hybrid Form",12,120,16d8,https://www.dnd5eapi.co
+"Weretiger - Tiger Form",12,120,16d8,https://www.dnd5eapi.co
+"Werewolf - Human Form",11,58,9d8,https://www.dnd5eapi.co
+"Werewolf - Hybrid Form",12,58,9d8,https://www.dnd5eapi.co
+"Werewolf - Wolf Form",12,58,9d8,https://www.dnd5eapi.co
+White Dragon Wyrmling,16,32,5d8,https://www.dnd5eapi.co
+Wight,14,45,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/wight.png
+Will-o'-Wisp,19,22,9d4,https://www.dnd5eapi.co/api/2014/images/monsters/will-o-wisp.png
+Winter Wolf,13,75,10d10,https://www.dnd5eapi.co/api/2014/images/monsters/winter-wolf.png
+Wolf,13,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/wolf.png
+Worg,13,26,4d10,https://www.dnd5eapi.co/api/2014/images/monsters/worg.png
+Wraith,13,67,9d8,https://www.dnd5eapi.co/api/2014/images/monsters/wraith.png
+Wyvern,13,110,13d10,https://www.dnd5eapi.co
+Xorn,19,73,7d8,https://www.dnd5eapi.co/api/2014/images/monsters/xorn.png
+Young Black Dragon,18,127,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-black-dragon.png
+Young Blue Dragon,18,152,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-blue-dragon.png
+Young Brass Dragon,17,110,13d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-brass-dragon.png
+Young Bronze Dragon,18,142,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-bronze-dragon.png
+Young Copper Dragon,17,119,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-copper-dragon.png
+Young Gold Dragon,18,178,17d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-gold-dragon.png
+Young Green Dragon,18,136,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-green-dragon.png
+Young Red Dragon,18,178,17d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-red-dragon.png
+Young Silver Dragon,18,168,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-silver-dragon.png
+Young White Dragon,17,133,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-white-dragon.png
+Zombie,8,22,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/zombie.png
