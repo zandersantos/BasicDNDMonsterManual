@@ -1,0 +1,335 @@
+id,name,armour_class,hitpoints,hit_dice,img_url,created_at,updated_at
+1,Aboleth,17,135,18d10,https://www.dnd5eapi.co/api/2014/images/monsters/aboleth.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+2,Acolyte,10,9,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/acolyte.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+3,Adult Black Dragon,19,195,17d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-black-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+4,Adult Blue Dragon,19,225,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-blue-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+5,Adult Brass Dragon,18,172,15d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-brass-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+6,Adult Bronze Dragon,19,212,17d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-bronze-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+7,Adult Copper Dragon,18,184,16d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-copper-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+8,Adult Gold Dragon,19,256,19d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-gold-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+9,Adult Green Dragon,19,207,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-green-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+10,Adult Red Dragon,19,256,19d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-red-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+11,Adult Silver Dragon,19,243,18d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-silver-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+12,Adult White Dragon,18,200,16d12,https://www.dnd5eapi.co/api/2014/images/monsters/adult-white-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+13,Air Elemental,15,90,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/air-elemental.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+14,Ancient Black Dragon,22,367,21d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-black-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+15,Ancient Blue Dragon,22,481,26d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-blue-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+16,Ancient Brass Dragon,20,297,17d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-brass-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+17,Ancient Bronze Dragon,22,444,24d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-bronze-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+18,Ancient Copper Dragon,21,350,20d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-copper-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+19,Ancient Gold Dragon,22,546,28d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-gold-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+20,Ancient Green Dragon,21,385,22d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-green-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+21,Ancient Red Dragon,22,546,28d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-red-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+22,Ancient Silver Dragon,22,487,25d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-silver-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+23,Ancient White Dragon,20,333,18d20,https://www.dnd5eapi.co/api/2014/images/monsters/ancient-white-dragon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+24,Androsphinx,17,199,19d10,https://www.dnd5eapi.co/api/2014/images/monsters/androsphinx.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+25,Animated Armor,18,33,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/animated-armor.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+26,Ankheg,14,39,6d10,https://www.dnd5eapi.co/api/2014/images/monsters/ankheg.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+27,Ape,12,19,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/ape.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+28,Archmage,12,99,18d8,https://www.dnd5eapi.co/api/2014/images/monsters/archmage.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+29,Assassin,15,78,12d8,https://www.dnd5eapi.co/api/2014/images/monsters/assassin.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+30,Awakened Shrub,9,10,3d6,https://www.dnd5eapi.co/api/2014/images/monsters/awakened-shrub.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+31,Awakened Tree,13,59,7d12,https://www.dnd5eapi.co/api/2014/images/monsters/awakened-tree.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+32,Axe Beak,11,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/axe-beak.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+33,Azer,15,39,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+34,Baboon,12,3,1d6,https://www.dnd5eapi.co/api/2014/images/monsters/baboon.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+35,Badger,10,3,1d4,https://www.dnd5eapi.co/api/2014/images/monsters/badger.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+36,Balor,19,262,21d12,https://www.dnd5eapi.co/api/2014/images/monsters/balor.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+37,Bandit,12,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/bandit.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+38,Bandit Captain,15,65,10d8,https://www.dnd5eapi.co/api/2014/images/monsters/bandit-captain.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+39,Barbed Devil,15,110,13d8,https://www.dnd5eapi.co/api/2014/images/monsters/barbed-devil.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+40,Basilisk,12,52,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+41,Bat,12,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+42,Bearded Devil,13,52,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+43,Behir,17,168,16d12,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+44,Berserker,13,67,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+45,Black Bear,11,19,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/black-bear.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+46,Black Dragon Wyrmling,17,33,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/black-dragon-wyrmling.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+47,Black Pudding,7,85,10d10,https://www.dnd5eapi.co/api/2014/images/monsters/black-pudding.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+48,Blink Dog,13,22,4d8,https://www.dnd5eapi.co/api/2014/images/monsters/blink-dog.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+49,Blood Hawk,12,7,2d6,https://www.dnd5eapi.co/api/2014/images/monsters/blood-hawk.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+50,Blue Dragon Wyrmling,17,52,8d8,https://www.dnd5eapi.co/api/2014/images/monsters/blue-dragon-wyrmling.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+51,Boar,11,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/boar.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+52,Bone Devil,19,142,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/bone-devil.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+53,Brass Dragon Wyrmling,16,16,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/brass-dragon-wyrmling.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+54,Bronze Dragon Wyrmling,17,32,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/bronze-dragon-wyrmling.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+55,Brown Bear,11,34,4d10,https://www.dnd5eapi.co/api/2014/images/monsters/brown-bear.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+56,Bugbear,16,27,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/bugbear.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+57,Bulette,17,94,9d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+58,Camel,9,15,2d10,https://www.dnd5eapi.co/api/2014/images/monsters/camel.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+59,Cat,12,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+60,Centaur,12,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+61,Chain Devil,16,85,10d8,https://www.dnd5eapi.co/api/2014/images/monsters/chain-devil.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+62,Chimera,14,114,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+63,Chuul,16,93,11d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+64,Clay Golem,14,133,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/clay-golem.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+65,Cloaker,14,78,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+66,Cloud Giant,14,200,16d12,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+67,Cockatrice,11,27,6d6,https://www.dnd5eapi.co/api/2014/images/monsters/cockatrice.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+68,Commoner,10,4,1d8,https://www.dnd5eapi.co/api/2014/images/monsters/commoner.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+69,Constrictor Snake,12,13,2d10,https://www.dnd5eapi.co/api/2014/images/monsters/constrictor-snake.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+70,Copper Dragon Wyrmling,16,22,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+71,Couatl,19,97,13d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+72,Crab,11,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+73,Crocodile,12,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/crocodile.png,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+74,Cult Fanatic,13,22,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+75,Cultist,12,9,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+76,Darkmantle,11,22,5d6,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+77,Death Dog,12,39,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+78,Deep Gnome (Svirfneblin),15,16,3d6,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+79,Deer,13,4,1d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+80,Deva,17,136,16d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+81,Dire Wolf,14,37,5d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+82,Djinni,17,161,14d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+83,Doppelganger,14,52,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+84,Draft Horse,10,19,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+85,Dragon Turtle,20,341,22d20,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+86,Dretch,11,18,4d6,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+87,Drider,19,123,13d10,https://www.dnd5eapi.co,2025-03-17 06:02:05 UTC,2025-03-17 06:02:05 UTC
+88,Drow,15,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+89,Druid,11,27,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+90,Dryad,11,22,5d8,https://www.dnd5eapi.co/api/2014/images/monsters/dryad.png,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+91,Duergar,16,26,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+92,Dust Mephit,12,17,5d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+93,Eagle,12,3,1d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+94,Earth Elemental,17,126,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/earth-elemental.png,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+95,Efreeti,17,200,16d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+96,Elephant,12,76,8d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+97,Elk,10,13,2d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+98,Erinyes,18,153,18d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+99,Ettercap,13,44,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+100,Ettin,12,85,10d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+101,Fire Elemental,13,102,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+102,Fire Giant,18,162,13d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+103,Flesh Golem,9,93,11d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+104,Flying Snake,14,5,2d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+105,Flying Sword,17,17,5d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+106,Frog,11,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+107,Frost Giant,15,138,12d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+108,Gargoyle,15,52,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+109,Gelatinous Cube,6,84,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+110,Ghast,13,36,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+111,Ghost,11,45,10d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+112,Ghoul,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+113,Giant Ape,12,157,15d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+114,Giant Badger,10,13,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+115,Giant Bat,13,22,4d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+116,Giant Boar,12,42,5d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+117,Giant Centipede,13,4,1d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+118,Giant Constrictor Snake,12,60,8d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+119,Giant Crab,15,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+120,Giant Crocodile,14,85,9d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+121,Giant Eagle,13,26,4d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+122,Giant Elk,14,42,5d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+123,Giant Fire Beetle,13,4,1d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+124,Giant Frog,11,18,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+125,Giant Goat,11,19,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+126,Giant Hyena,12,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+127,Giant Lizard,12,19,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+128,Giant Octopus,11,52,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+129,Giant Owl,12,19,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+130,Giant Poisonous Snake,14,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+131,Giant Rat,12,7,2d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+132,Giant Rat (Diseased),12,7,2d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+133,Giant Scorpion,15,52,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+134,Giant Sea Horse,13,16,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+135,Giant Shark,13,126,11d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+136,Giant Spider,14,26,4d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+137,Giant Toad,11,39,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+138,Giant Vulture,10,22,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+139,Giant Wasp,12,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+140,Giant Weasel,13,9,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+141,Giant Wolf Spider,13,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+142,Gibbering Mouther,9,67,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+143,Glabrezu,17,157,15d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+144,Gladiator,16,112,15d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+145,Gnoll,15,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+146,Goat,10,4,1d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+147,Goblin,15,7,2d6,https://www.dnd5eapi.co/api/2014/images/monsters/goblin.png,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+148,Gold Dragon Wyrmling,17,60,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+149,Gorgon,19,114,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+150,Gray Ooze,8,22,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+151,Green Dragon Wyrmling,17,38,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+152,Green Hag,17,82,11d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+153,Grick,14,27,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+154,Griffon,12,59,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+155,Grimlock,11,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+156,Guard,16,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+157,Guardian Naga,18,127,15d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+158,Gynosphinx,17,136,16d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+159,Half-Red Dragon Veteran,18,65,10d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+160,Harpy,11,38,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+161,Hawk,13,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+162,Hell Hound,15,45,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+163,Hezrou,16,136,13d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+164,Hill Giant,13,105,10d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+165,Hippogriff,11,19,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+166,Hobgoblin,18,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+167,Homunculus,13,5,2d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+168,Horned Devil,18,178,17d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+169,Hunter Shark,12,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+170,Hydra,15,172,15d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+171,Hyena,11,5,1d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+172,Ice Devil,18,180,19d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+173,Ice Mephit,11,21,6d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+174,Imp,13,10,3d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+175,Invisible Stalker,14,104,16d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+176,Iron Golem,20,210,20d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+177,Jackal,12,3,1d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+178,Killer Whale,12,90,12d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+179,Knight,18,52,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+180,Kobold,12,5,2d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+181,Kraken,18,472,27d20,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+182,Lamia,13,97,13d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+183,Lemure,7,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+184,Lich,17,135,18d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+185,Lion,12,26,4d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+186,Lizard,10,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+187,Lizardfolk,13,22,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+188,Mage,12,40,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+189,Magma Mephit,11,22,5d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+190,Magmin,14,9,2d6,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+191,Mammoth,13,126,11d12,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+192,Manticore,14,68,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+193,Marilith,18,189,18d10,https://www.dnd5eapi.co,2025-03-17 06:02:06 UTC,2025-03-17 06:02:06 UTC
+194,Mastiff,12,5,1d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+195,Medusa,15,127,17d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+196,Merfolk,11,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+197,Merrow,13,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+198,Mimic,12,58,9d8,https://www.dnd5eapi.co/api/2014/images/monsters/mimic.png,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+199,Minotaur,14,76,9d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+200,Minotaur Skeleton,12,67,9d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+201,Mule,10,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+202,Mummy,11,58,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+203,Mummy Lord,17,97,13d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+204,Nalfeshnee,18,184,16d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+205,Night Hag,17,112,15d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+206,Nightmare,13,68,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+207,Noble,15,9,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+208,Ochre Jelly,8,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+209,Octopus,12,3,1d6,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+210,Ogre,11,59,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+211,Ogre Zombie,8,85,9d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+212,Oni,16,110,13d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+213,Orc,13,15,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+214,Otyugh,14,114,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+215,Owl,11,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+216,Owlbear,13,59,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+217,Panther,12,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+218,Pegasus,12,59,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+219,Phase Spider,13,32,5d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+220,Pit Fiend,19,300,24d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+221,Planetar,19,200,16d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+222,Plesiosaurus,13,68,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+223,Poisonous Snake,13,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+224,Polar Bear,12,42,5d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+225,Pony,10,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+226,Priest,13,27,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+227,Pseudodragon,13,7,2d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+228,Purple Worm,18,247,15d20,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+229,Quasit,13,7,3d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+230,Quipper,13,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+231,Rakshasa,16,110,13d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+232,Rat,10,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+233,Raven,12,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+234,Red Dragon Wyrmling,17,75,10d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+235,Reef Shark,12,22,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+236,Remorhaz,17,195,17d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+237,Rhinoceros,11,45,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+238,Riding Horse,10,13,2d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+239,Roc,15,248,16d20,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+240,Roper,20,93,11d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+241,Rug of Smothering,12,33,6d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+242,Rust Monster,14,27,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+243,Saber-Toothed Tiger,12,52,7d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+244,Sahuagin,12,22,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+245,Salamander,15,90,12d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+246,Satyr,14,31,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+247,Scorpion,11,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+248,Scout,13,16,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+249,Sea Hag,14,52,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+250,Sea Horse,11,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+251,Shadow,12,16,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+252,Shambling Mound,15,136,16d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+253,Shield Guardian,17,142,15d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+254,Shrieker,5,13,3d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+255,Silver Dragon Wyrmling,17,45,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+256,Skeleton,13,13,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+257,Solar,21,243,18d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+258,Specter,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+259,Spider,12,1,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+260,Spirit Naga,15,75,10d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+261,Sprite,15,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+262,Spy,12,27,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+263,Steam Mephit,10,21,6d6,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+264,Stirge,14,2,1d4,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+265,Stone Giant,17,126,11d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+266,Stone Golem,17,178,17d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+267,Storm Giant,16,230,20d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+268,Succubus/Incubus,15,66,12d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+269,Swarm of Bats,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+270,Swarm of Beetles,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+271,Swarm of Centipedes,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+272,Swarm of Insects,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+273,Swarm of Poisonous Snakes,14,36,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+274,Swarm of Quippers,13,28,8d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+275,Swarm of Rats,10,24,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+276,Swarm of Ravens,12,24,7d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+277,Swarm of Spiders,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+278,Swarm of Wasps,12,22,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+279,Tarrasque,25,676,33d20,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+280,Thug,11,32,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+281,Tiger,12,37,5d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+282,Treant,16,138,12d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+283,Tribal Warrior,12,11,2d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+284,Triceratops,13,95,10d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+285,Troll,15,84,8d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+286,Tyrannosaurus Rex,13,136,13d12,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+287,Unicorn,12,67,9d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+288,"Vampire, Vampire Form",16,144,17d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+289,"Vampire, Bat Form",16,144,17d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+290,"Vampire, Mist Form",16,144,17d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+291,Vampire Spawn,15,82,11d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+292,Veteran,17,58,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+293,Violet Fungus,5,18,4d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+294,Vrock,15,104,11d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+295,Vulture,10,5,1d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+296,Warhorse,11,19,3d10,https://www.dnd5eapi.co/api/2014/images/monsters/warhorse.png,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+297,Warhorse Skeleton,13,22,3d10,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+298,Water Elemental,14,114,12d10,https://www.dnd5eapi.co/api/2014/images/monsters/water-elemental.png,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+299,Weasel,13,1,1d4,https://www.dnd5eapi.co/api/2014/images/monsters/weasel.png,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+300,"Werebear, Bear Form",11,135,18d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+301,"Werebear, Human Form",10,135,18d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+302,"Werebear, Hybrid Form",11,135,18d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+303,"Wereboar, Boar Form",11,78,12d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+304,"Wereboar, Human Form",10,78,12d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+305,"Wereboar, Hybrid Form",11,78,12d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+306,"Wererat, Human Form",12,33,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:07 UTC,2025-03-17 06:02:07 UTC
+307,"Wererat, Hybrid Form",12,33,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+308,"Wererat, Rat Form",12,33,6d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+309,"Weretiger, Human Form",12,120,16d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+310,"Weretiger, Hybrid Form",12,120,16d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+311,"Weretiger, Tiger Form",12,120,16d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+312,"Werewolf, Human Form",11,58,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+313,"Werewolf, Hybrid Form",12,58,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+314,"Werewolf, Wolf Form",12,58,9d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+315,White Dragon Wyrmling,16,32,5d8,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+316,Wight,14,45,6d8,https://www.dnd5eapi.co/api/2014/images/monsters/wight.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+317,Will-o'-Wisp,19,22,9d4,https://www.dnd5eapi.co/api/2014/images/monsters/will-o-wisp.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+318,Winter Wolf,13,75,10d10,https://www.dnd5eapi.co/api/2014/images/monsters/winter-wolf.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+319,Wolf,13,11,2d8,https://www.dnd5eapi.co/api/2014/images/monsters/wolf.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+320,Worg,13,26,4d10,https://www.dnd5eapi.co/api/2014/images/monsters/worg.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+321,Wraith,13,67,9d8,https://www.dnd5eapi.co/api/2014/images/monsters/wraith.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+322,Wyvern,13,110,13d10,https://www.dnd5eapi.co,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+323,Xorn,19,73,7d8,https://www.dnd5eapi.co/api/2014/images/monsters/xorn.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+324,Young Black Dragon,18,127,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-black-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+325,Young Blue Dragon,18,152,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-blue-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+326,Young Brass Dragon,17,110,13d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-brass-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+327,Young Bronze Dragon,18,142,15d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-bronze-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+328,Young Copper Dragon,17,119,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-copper-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+329,Young Gold Dragon,18,178,17d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-gold-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+330,Young Green Dragon,18,136,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-green-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+331,Young Red Dragon,18,178,17d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-red-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+332,Young Silver Dragon,18,168,16d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-silver-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+333,Young White Dragon,17,133,14d10,https://www.dnd5eapi.co/api/2014/images/monsters/young-white-dragon.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
+334,Zombie,8,22,3d8,https://www.dnd5eapi.co/api/2014/images/monsters/zombie.png,2025-03-17 06:02:08 UTC,2025-03-17 06:02:08 UTC
