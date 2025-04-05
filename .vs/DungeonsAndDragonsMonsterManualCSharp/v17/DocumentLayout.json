@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\seleniumtesting\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\seleniumtesting\\searchingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\searchingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\seleniumtesting\\seleniumtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\seleniumtesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\seleniumtesting\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADD9552C-BC19-4A4E-8D75-1A5F2ED4A07E}|SeleniumTesting\\SeleniumTesting.csproj|solutionrelative:seleniumtesting\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -85,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\monstersearch.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\monstersearch.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|c:\\users\\zainz\\desktop\\dndc#\\dungeonsanddragonsmonstermanualcsharp\\dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F7213E-3E79-41CC-B444-67A5538C2F4C}|DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj|solutionrelative:dungeonsanddragonsmonstermanualcsharp\\seleniumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -108,11 +116,37 @@
         },
         {
           "DockedWidth": 398,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeleniumTesting",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTesting\\SeleniumTesting.csproj",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SeleniumTesting.csproj",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTesting\\SeleniumTesting.csproj",
+              "RelativeToolTip": "SeleniumTesting\\SeleniumTesting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T01:08:26.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SearchingTests.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTesting\\SearchingTests.cs",
+              "RelativeDocumentMoniker": "SeleniumTesting\\SearchingTests.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTesting\\SearchingTests.cs",
+              "RelativeToolTip": "SeleniumTesting\\SearchingTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T01:10:50.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTesting\\Class1.cs",
               "RelativeDocumentMoniker": "SeleniumTesting\\Class1.cs",
@@ -125,45 +159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DungeonsAndDragonsMonsterManualCSharp",
-              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
-              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
-              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
-              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T01:02:21.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\README.md",
-              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\README.md",
-              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\README.md",
-              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\README.md",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-04-05T01:01:33.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MonstersController.cs",
-              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
-              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
-              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
-              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Title": "SeleniumTest.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:35:25.538Z"
+              "WhenOpened": "2025-03-26T02:29:59.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Details.cshtml",
@@ -176,19 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
               "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\Monster.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:37:16.371Z"
+              "WhenOpened": "2025-04-04T00:37:16.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
@@ -196,11 +206,51 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monsters\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T00:37:42.116Z"
+              "WhenOpened": "2025-04-04T00:37:42.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DungeonsAndDragonsMonsterManualCSharp.csproj",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T01:02:21.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MonstersController.cs",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\MonstersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:35:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\README.md",
+              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\README.md",
+              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\README.md",
+              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\README.md",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-05T01:01:33.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
@@ -208,23 +258,25 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Monster\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T00:37:29.075Z"
+              "WhenOpened": "2025-04-04T00:37:29.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:55:32.491Z"
+              "WhenOpened": "2025-04-03T23:55:32.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
@@ -232,23 +284,25 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:52:25.709Z"
+              "WhenOpened": "2025-04-03T23:52:25.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
               "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:17:09.309Z"
+              "WhenOpened": "2025-04-03T23:17:09.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
@@ -256,11 +310,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\SeedData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:38:56.902Z"
+              "WhenOpened": "2025-04-03T23:38:56.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
@@ -268,11 +323,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:06:51.336Z"
+              "WhenOpened": "2025-04-04T00:06:51.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TopActionViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
@@ -280,11 +336,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Models\\TopActionViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T00:06:46.294Z"
+              "WhenOpened": "2025-04-04T00:06:46.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "NoResultsFound.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
@@ -292,11 +349,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\Shared\\NoResultsFound.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:52:41.616Z"
+              "WhenOpened": "2025-04-03T23:52:41.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
@@ -304,11 +362,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:52:39.362Z"
+              "WhenOpened": "2025-04-03T23:52:39.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
@@ -316,23 +375,25 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T23:51:30.328Z"
+              "WhenOpened": "2025-04-03T23:51:30.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "DungeonsAndDragonsMonsterManualCSharpContext.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
               "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\Data\\DungeonsAndDragonsMonsterManualCSharpContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:56:52.162Z"
+              "WhenOpened": "2025-04-03T22:56:52.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SelfHelp.txt",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
@@ -340,11 +401,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\SelfHelp.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-03T22:43:49.683Z"
+              "WhenOpened": "2025-04-03T22:43:49.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "MonsterSearchSteps.cs",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
@@ -352,11 +414,12 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearchSteps.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T02:23:41.446Z"
+              "WhenOpened": "2025-03-26T02:23:41.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "MonsterSearch.feature",
               "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
               "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
@@ -364,19 +427,8 @@
               "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\MonsterSearch.feature",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-26T02:47:53.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SeleniumTest.cs",
-              "DocumentMoniker": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
-              "RelativeDocumentMoniker": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
-              "ToolTip": "C:\\Users\\zainz\\Desktop\\DNDC#\\DungeonsAndDragonsMonsterManualCSharp\\DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
-              "RelativeToolTip": "DungeonsAndDragonsMonsterManualCSharp\\SeleniumTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T02:29:59.106Z"
+              "WhenOpened": "2025-03-26T02:47:53.976Z",
+              "EditorCaption": ""
             }
           ]
         }

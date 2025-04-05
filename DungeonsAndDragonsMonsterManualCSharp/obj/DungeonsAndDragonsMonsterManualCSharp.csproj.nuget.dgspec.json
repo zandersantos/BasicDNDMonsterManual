@@ -86,11 +86,11 @@
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.30.0, )"
+              "version": "[4.31.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[134.0.6998.16500, )"
+              "version": "[135.0.7049.4200, )"
             },
             "SpecFlow": {
               "target": "Package",

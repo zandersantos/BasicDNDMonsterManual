@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+faff4350248f604c2b347bc5e962f7361e581db2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52e6490567edd0325052d32582db58a32d639528")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
