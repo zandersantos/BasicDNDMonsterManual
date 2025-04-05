@@ -67,7 +67,6 @@ GET /images/:id   => Display a single monster image
 GET /pages/:permalink  => Displays pages
 GET /search_all       => Display a search results page
 
-
 ## Controllers
 HomeController => index
 MonstersController => index, show
@@ -78,3 +77,11 @@ MonsterSensesController => index, show
 MonsterImagesController => index, show
 PagesController
 SearchController
+
+## Exporting my Database
+1) Using csv files.
+  - Creation of ruby data extraction into csv (monsters_export.rb) or through outside use (export into excel)
+2) Using SQL Server
+  - Dumping the database into an sql file
+  (sqlite3 storage/development.sqlite3 .dump > database_dump.sql)
+  - Importing the .sql file into SQL Server (SSMS)
