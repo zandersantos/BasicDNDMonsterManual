@@ -85,3 +85,6 @@ SearchController
   - Dumping the database into an sql file
   (sqlite3 storage/development.sqlite3 .dump > database_dump.sql)
   - Importing the .sql file into SQL Server (SSMS)
+  - Edit the .sql file
+    - Remove: PRAGMA foreign_keys=OFF;
+    - Replace AUTOINCREMENT with IDENTITY(1,1)

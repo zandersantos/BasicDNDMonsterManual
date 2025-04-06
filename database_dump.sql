@@ -1,41 +1,169 @@
-PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
-CREATE TABLE IF NOT EXISTS "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY);
-INSERT INTO schema_migrations VALUES('20250315180222');
-INSERT INTO schema_migrations VALUES('20250315180608');
-INSERT INTO schema_migrations VALUES('20250315180720');
-INSERT INTO schema_migrations VALUES('20250315180935');
-INSERT INTO schema_migrations VALUES('20250315181112');
-INSERT INTO schema_migrations VALUES('20250315181233');
-INSERT INTO schema_migrations VALUES('20250315181642');
-INSERT INTO schema_migrations VALUES('20250316174013');
-INSERT INTO schema_migrations VALUES('20250316191441');
-INSERT INTO schema_migrations VALUES('20250316191931');
-INSERT INTO schema_migrations VALUES('20250316192604');
-INSERT INTO schema_migrations VALUES('20250317063919');
-INSERT INTO schema_migrations VALUES('20250317064157');
-INSERT INTO schema_migrations VALUES('20250317064956');
-INSERT INTO schema_migrations VALUES('20250317065019');
-INSERT INTO schema_migrations VALUES('20250317065202');
-INSERT INTO schema_migrations VALUES('20250317065223');
-INSERT INTO schema_migrations VALUES('20250320202714');
-CREATE TABLE IF NOT EXISTS "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
-INSERT INTO ar_internal_metadata VALUES('environment','development','2025-03-15 18:03:03.277926','2025-03-15 18:03:03.277929');
-CREATE TABLE IF NOT EXISTS "abilities" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" varchar, "string" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
-CREATE TABLE IF NOT EXISTS "monster_abilities" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "monster_id" integer NOT NULL, "ability_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_a9bbad97e6"
-FOREIGN KEY ("monster_id")
-  REFERENCES "monsters" ("id")
-, CONSTRAINT "fk_rails_83979abd6d"
-FOREIGN KEY ("ability_id")
-  REFERENCES "abilities" ("id")
-);
-CREATE TABLE IF NOT EXISTS "monster_actions" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "monster_id" integer NOT NULL, "action_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "description" varchar /*application='Dndbasicmonstermanual'*/, "damage_type" varchar /*application='Dndbasicmonstermanual'*/, "damage_dice" varchar /*application='Dndbasicmonstermanual'*/, CONSTRAINT "fk_rails_c4003ec031"
-FOREIGN KEY ("monster_id")
-  REFERENCES "monsters" ("id")
-, CONSTRAINT "fk_rails_115cec702b"
-FOREIGN KEY ("action_id")
-  REFERENCES "actions" ("id")
-);
+
+-- Schema Migrations Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'schema_migrations')
+BEGIN
+    CREATE TABLE schema_migrations (
+        version NVARCHAR(255) NOT NULL PRIMARY KEY
+    );
+END;
+
+-- Inserting Values into Schema Migrations
+INSERT INTO schema_migrations (version) VALUES
+('20250315180222'),
+('20250315180608'),
+('20250315180720'),
+('20250315180935'),
+('20250315181112'),
+('20250315181233'),
+('20250315181642'),
+('20250316174013'),
+('20250316191441'),
+('20250316191931'),
+('20250316192604'),
+('20250317063919'),
+('20250317064157'),
+('20250317064956'),
+('20250317065019'),
+('20250317065202'),
+('20250317065223'),
+('20250320202714');
+
+-- Internal Metadata Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'ar_internal_metadata')
+BEGIN
+    CREATE TABLE ar_internal_metadata (
+        metadata_key NVARCHAR(255) NOT NULL PRIMARY KEY,
+        value NVARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+
+-- Inserting Values into Internal Metadata Table
+INSERT INTO ar_internal_metadata (metadata_key, value, created_at, updated_at) VALUES
+('environment', 'development', '2025-03-15T18:03:03.277', '2025-03-15T18:03:03.277');
+
+--Monster Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'monsters')
+BEGIN
+    CREATE TABLE monsters (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        name VARCHAR(MAX),
+        armour_class INT,
+        hitpoints VARCHAR(MAX),
+        hit_dice VARCHAR(MAX),
+        img_url VARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+
+-- Ability Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'actions')
+BEGIN
+    CREATE TABLE actions (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        name VARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+
+-- Abilities Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'abilities')
+BEGIN
+    CREATE TABLE abilities (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        name VARCHAR(MAX),
+        description VARCHAR(MAX),
+        [string] VARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+
+-- Monster Abilities Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'monster_abilities')
+BEGIN
+    CREATE TABLE monster_abilities (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        monster_id INT NOT NULL,
+        ability_id INT NOT NULL,
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL,
+        CONSTRAINT fk_rails_a9bbad97e6 FOREIGN KEY (monster_id) REFERENCES monsters (id),
+        CONSTRAINT fk_rails_83979abd6d FOREIGN KEY (ability_id) REFERENCES abilities (id)
+    );
+END;
+
+-- Monster Images
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'monster_images')
+BEGIN
+    CREATE TABLE monster_images (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        url VARCHAR(MAX),
+        monster_id INT NOT NULL,
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL,
+        CONSTRAINT fk_rails_26e7a977d0 FOREIGN KEY (monster_id) REFERENCES monsters (id)
+    );
+END;
+
+-- Sense Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'senses')
+BEGIN
+    CREATE TABLE senses (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        sense_type VARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+
+-- Monster Sense Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'monster_senses')
+BEGIN
+    CREATE TABLE monster_senses (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        sense_range VARCHAR(MAX),
+        monster_id INT NOT NULL,
+        sense_id INT NOT NULL,
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL,
+        CONSTRAINT fk_rails_1beaceb7f8 FOREIGN KEY (monster_id) REFERENCES monsters (id),
+        CONSTRAINT fk_rails_158c85f19b FOREIGN KEY (sense_id) REFERENCES senses (id)
+    );
+END;
+
+-- Monster Actions Table
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'monster_actions')
+BEGIN
+    CREATE TABLE monster_actions (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        monster_id INT NOT NULL,
+        action_id INT NOT NULL,
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL,
+        description VARCHAR(MAX),
+        damage_type VARCHAR(MAX),
+        damage_dice VARCHAR(MAX),
+        CONSTRAINT fk_rails_c4003ec031 FOREIGN KEY (monster_id) REFERENCES monsters (id),
+        CONSTRAINT fk_rails_115cec702b FOREIGN KEY (action_id) REFERENCES actions (id)
+    );
+END;
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'pages')
+BEGIN
+    CREATE TABLE pages (
+        id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+        title VARCHAR(MAX),
+        content TEXT,
+        permalink VARCHAR(MAX),
+        created_at DATETIME NOT NULL,
+        updated_at DATETIME NOT NULL
+    );
+END;
+SET IDENTITY_INSERT monster_actions ON;
 INSERT INTO monster_actions VALUES(1,1,1,'2025-03-17 08:06:40.695535','2025-03-17 08:06:40.695535','The aboleth makes three tentacle attacks.',NULL,NULL);
 INSERT INTO monster_actions VALUES(2,1,2,'2025-03-17 08:06:40.707570','2025-03-17 08:06:40.707570','Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature''s skin becomes translucent and slimy, the creature can''t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.','Bludgeoning','2d6+5');
 INSERT INTO monster_actions VALUES(3,1,2,'2025-03-17 08:06:40.718396','2025-03-17 08:06:40.718396','Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature''s skin becomes translucent and slimy, the creature can''t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.','Acid','1d12');
@@ -943,10 +1071,7 @@ INSERT INTO monster_actions VALUES(904,333,6,'2025-03-17 08:06:49.857735','2025-
 INSERT INTO monster_actions VALUES(905,333,7,'2025-03-17 08:06:49.865836','2025-03-17 08:06:49.865836','Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.','Slashing','2d6+4');
 INSERT INTO monster_actions VALUES(906,333,14,'2025-03-17 08:06:49.873761','2025-03-17 08:06:49.873761','The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.','Cold','10d8');
 INSERT INTO monster_actions VALUES(907,334,15,'2025-03-17 08:06:49.883724','2025-03-17 08:06:49.883724','Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.','Bludgeoning','1d6+1');
-CREATE TABLE IF NOT EXISTS "monster_images" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "url" varchar, "monster_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_26e7a977d0"
-FOREIGN KEY ("monster_id")
-  REFERENCES "monsters" ("id")
-);
+SET IDENTITY_INSERT monster_actions OFF;
 INSERT INTO monster_images VALUES(1,'https://www.dnd5eapi.co/api/2014/images/monsters/aboleth.png',1,'2025-03-17 21:33:43.574122','2025-03-17 21:33:43.574122');
 INSERT INTO monster_images VALUES(2,'https://www.dnd5eapi.co/api/2014/images/monsters/acolyte.png',2,'2025-03-17 21:33:43.587743','2025-03-17 21:33:43.587743');
 INSERT INTO monster_images VALUES(3,'https://www.dnd5eapi.co/api/2014/images/monsters/adult-black-dragon.png',3,'2025-03-17 21:33:43.598438','2025-03-17 21:33:43.598438');
@@ -1030,7 +1155,7 @@ INSERT INTO monster_images VALUES(80,'https://www.dnd5eapi.co/api/2014/images/mo
 INSERT INTO monster_images VALUES(81,'https://www.dnd5eapi.co/api/2014/images/monsters/young-silver-dragon.png',332,'2025-03-17 21:33:46.362158','2025-03-17 21:33:46.362158');
 INSERT INTO monster_images VALUES(82,'https://www.dnd5eapi.co/api/2014/images/monsters/young-white-dragon.png',333,'2025-03-17 21:33:46.372766','2025-03-17 21:33:46.372766');
 INSERT INTO monster_images VALUES(83,'https://www.dnd5eapi.co/api/2014/images/monsters/zombie.png',334,'2025-03-17 21:33:46.383661','2025-03-17 21:33:46.383661');
-CREATE TABLE IF NOT EXISTS "monsters" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "armour_class" integer, "hitpoints" varchar, "hit_dice" varchar, "img_url" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
+
 INSERT INTO monsters VALUES(1,'Aboleth',17,'135','18d10','https://www.dnd5eapi.co/api/2014/images/monsters/aboleth.png','2025-03-17 06:02:05.179072','2025-03-17 06:02:05.179072');
 INSERT INTO monsters VALUES(2,'Acolyte',10,'9','2d8','https://www.dnd5eapi.co/api/2014/images/monsters/acolyte.png','2025-03-17 06:02:05.188146','2025-03-17 06:02:05.188146');
 INSERT INTO monsters VALUES(3,'Adult Black Dragon',19,'195','17d12','https://www.dnd5eapi.co/api/2014/images/monsters/adult-black-dragon.png','2025-03-17 06:02:05.197179','2025-03-17 06:02:05.197179');
@@ -1365,19 +1490,12 @@ INSERT INTO monsters VALUES(331,'Young Red Dragon',18,'178','17d10','https://www
 INSERT INTO monsters VALUES(332,'Young Silver Dragon',18,'168','16d10','https://www.dnd5eapi.co/api/2014/images/monsters/young-silver-dragon.png','2025-03-17 06:02:08.213220','2025-03-17 06:02:08.213220');
 INSERT INTO monsters VALUES(333,'Young White Dragon',17,'133','14d10','https://www.dnd5eapi.co/api/2014/images/monsters/young-white-dragon.png','2025-03-17 06:02:08.220388','2025-03-17 06:02:08.220388');
 INSERT INTO monsters VALUES(334,'Zombie',8,'22','3d8','https://www.dnd5eapi.co/api/2014/images/monsters/zombie.png','2025-03-17 06:02:08.227396','2025-03-17 06:02:08.227396');
-CREATE TABLE IF NOT EXISTS "senses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "sense_type" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 INSERT INTO senses VALUES(1,'darkvision','2025-03-17 06:02:08.239118','2025-03-17 06:02:08.239118');
 INSERT INTO senses VALUES(2,'passive_perception','2025-03-17 06:02:08.246526','2025-03-17 06:02:08.246526');
 INSERT INTO senses VALUES(3,'blindsight','2025-03-17 06:02:08.253670','2025-03-17 06:02:08.253670');
 INSERT INTO senses VALUES(4,'truesight','2025-03-17 06:02:08.260349','2025-03-17 06:02:08.260349');
 INSERT INTO senses VALUES(5,'tremorsense','2025-03-17 06:02:08.267640','2025-03-17 06:02:08.267640');
-CREATE TABLE IF NOT EXISTS "monster_senses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "sense_range" varchar, "monster_id" integer NOT NULL, "sense_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_1beaceb7f8"
-FOREIGN KEY ("monster_id")
-  REFERENCES "monsters" ("id")
-, CONSTRAINT "fk_rails_158c85f19b"
-FOREIGN KEY ("sense_id")
-  REFERENCES "senses" ("id")
-);
+
 INSERT INTO monster_senses VALUES(1,' 120 ft.',1,1,'2025-03-17 06:02:08.377612','2025-03-17 06:02:08.377612');
 INSERT INTO monster_senses VALUES(2,'20',1,2,'2025-03-17 06:02:08.388944','2025-03-17 06:02:08.388944');
 INSERT INTO monster_senses VALUES(3,' 12',2,2,'2025-03-17 06:02:08.398517','2025-03-17 06:02:08.398517');
@@ -1995,7 +2113,6 @@ INSERT INTO monster_senses VALUES(614,'120ft.',333,1,'2025-03-17 06:02:14.460723
 INSERT INTO monster_senses VALUES(615,'16',333,2,'2025-03-17 06:02:14.471394','2025-03-17 06:02:14.471394');
 INSERT INTO monster_senses VALUES(616,' 60 ft.',334,1,'2025-03-17 06:02:14.481322','2025-03-17 06:02:14.481322');
 INSERT INTO monster_senses VALUES(617,'8',334,2,'2025-03-17 06:02:14.489973','2025-03-17 06:02:14.489973');
-CREATE TABLE IF NOT EXISTS "actions" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 INSERT INTO actions VALUES(1,'Multiattack','2025-03-17 07:37:28.181365','2025-03-17 07:37:28.181365');
 INSERT INTO actions VALUES(2,'Tentacle','2025-03-17 07:37:28.192156','2025-03-17 07:37:28.192156');
 INSERT INTO actions VALUES(3,'Tail','2025-03-17 07:37:28.200095','2025-03-17 07:37:28.200095');
@@ -2152,17 +2269,28 @@ INSERT INTO actions VALUES(153,'Maul','2025-03-17 07:37:29.549172','2025-03-17 0
 INSERT INTO actions VALUES(154,'Shock','2025-03-17 07:37:29.557983','2025-03-17 07:37:29.557983');
 INSERT INTO actions VALUES(155,'Create Specter','2025-03-17 07:37:29.566652','2025-03-17 07:37:29.566652');
 INSERT INTO actions VALUES(156,'Stinger','2025-03-17 07:37:29.574926','2025-03-17 07:37:29.574926');
-CREATE TABLE IF NOT EXISTS "pages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "permalink" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 INSERT INTO pages VALUES(1,'About the Data','This data was pulled from a API on GitHub: https://5e-bits.github.io/docs/, https://github.com/5e-bits/5e-database','about','2025-03-20 20:38:11.614476','2025-03-20 22:19:16.037108');
 INSERT INTO pages VALUES(2,'Contact Us','Send me an email at zainzedd@gmail.com if you have any questions!','contact','2025-03-20 20:38:11.624232','2025-03-20 20:38:11.624232');
-DELETE FROM sqlite_sequence;
-INSERT INTO sqlite_sequence VALUES('monsters',334);
-INSERT INTO sqlite_sequence VALUES('senses',5);
-INSERT INTO sqlite_sequence VALUES('monster_senses',617);
-INSERT INTO sqlite_sequence VALUES('actions',156);
-INSERT INTO sqlite_sequence VALUES('monster_actions',907);
-INSERT INTO sqlite_sequence VALUES('monster_images',83);
-INSERT INTO sqlite_sequence VALUES('pages',3);
+-- Set the identity value for monsters
+DBCC CHECKIDENT ('monsters', RESEED, 334);
+
+-- Set the identity value for senses
+DBCC CHECKIDENT ('senses', RESEED, 5);
+
+-- Set the identity value for monster_senses
+DBCC CHECKIDENT ('monster_senses', RESEED, 617);
+
+-- Set the identity value for actions
+DBCC CHECKIDENT ('actions', RESEED, 156);
+
+-- Set the identity value for monster_actions
+DBCC CHECKIDENT ('monster_actions', RESEED, 907);
+
+-- Set the identity value for monster_images
+DBCC CHECKIDENT ('monster_images', RESEED, 83);
+
+-- Set the identity value for pages
+DBCC CHECKIDENT ('pages', RESEED, 3);
 CREATE INDEX "index_monster_abilities_on_monster_id" ON "monster_abilities" ("monster_id") /*application='Dndbasicmonstermanual'*/;
 CREATE INDEX "index_monster_abilities_on_ability_id" ON "monster_abilities" ("ability_id") /*application='Dndbasicmonstermanual'*/;
 CREATE INDEX "index_monster_actions_on_monster_id" ON "monster_actions" ("monster_id") /*application='Dndbasicmonstermanual'*/;
